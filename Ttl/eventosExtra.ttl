@@ -1,0 +1,420 @@
+<http://www.constituteproject.org/constitution/Haiti_1946> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Haiti_1946> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Haiti>.
+<http://www.constituteproject.org/constitution/Haiti_1946> <http://www.constituteproject.org/constitution/id> "496".
+<http://www.constituteproject.org/constitution/Haiti_1946> <http://www.constituteproject.org/constitution/country> "Haiti".
+<http://www.constituteproject.org/constitution/Haiti_1946> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "3. New".
+<http://www.constituteproject.org/constitution/Haiti_1946> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1946".
+<http://www.constituteproject.org/constitution/Sudan_1962> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Sudan_1962> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Sudan_the>.
+<http://www.constituteproject.org/constitution/Sudan_1962> <http://www.constituteproject.org/constitution/id> "930".
+<http://www.constituteproject.org/constitution/Sudan_1962> <http://www.constituteproject.org/constitution/country> "Sudan".
+<http://www.constituteproject.org/constitution/Sudan_1962> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Sudan_1962> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1962".
+<http://www.constituteproject.org/constitution/Venezuela_1914> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Venezuela_1914> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Venezuela>.
+<http://www.constituteproject.org/constitution/Venezuela_1914> <http://www.constituteproject.org/constitution/id> "1073".
+<http://www.constituteproject.org/constitution/Venezuela_1914> <http://www.constituteproject.org/constitution/country> "Venezuela".
+<http://www.constituteproject.org/constitution/Venezuela_1914> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "3. New".
+<http://www.constituteproject.org/constitution/Venezuela_1914> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1914".
+<http://www.constituteproject.org/constitution/Gambia_1982> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Gambia_1982> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Gambia__the>.
+<http://www.constituteproject.org/constitution/Gambia_1982> <http://www.constituteproject.org/constitution/id> "1219".
+<http://www.constituteproject.org/constitution/Gambia_1982> <http://www.constituteproject.org/constitution/country> "Gambia".
+<http://www.constituteproject.org/constitution/Gambia_1982> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Gambia_1982> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1982".
+<http://www.constituteproject.org/constitution/Gambia_1987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Gambia_1987> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Gambia__the>.
+<http://www.constituteproject.org/constitution/Gambia_1987> <http://www.constituteproject.org/constitution/id> "1220".
+<http://www.constituteproject.org/constitution/Gambia_1987> <http://www.constituteproject.org/constitution/country> "Gambia".
+<http://www.constituteproject.org/constitution/Gambia_1987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Gambia_1987> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1987".
+<http://www.constituteproject.org/constitution/Chad_1991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Chad_1991> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Chad>.
+<http://www.constituteproject.org/constitution/Chad_1991> <http://www.constituteproject.org/constitution/id> "1353".
+<http://www.constituteproject.org/constitution/Chad_1991> <http://www.constituteproject.org/constitution/country> "Chad".
+<http://www.constituteproject.org/constitution/Chad_1991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Chad_1991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1991".
+<http://www.constituteproject.org/constitution/Gambia_1994> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Gambia_1994> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Gambia__the>.
+<http://www.constituteproject.org/constitution/Gambia_1994> <http://www.constituteproject.org/constitution/id> "1431".
+<http://www.constituteproject.org/constitution/Gambia_1994> <http://www.constituteproject.org/constitution/country> "Gambia".
+<http://www.constituteproject.org/constitution/Gambia_1994> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Gambia_1994> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1994".
+<http://www.constituteproject.org/constitution/Grenada_1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Grenada_1980> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Grenada>.
+<http://www.constituteproject.org/constitution/Grenada_1980> <http://www.constituteproject.org/constitution/id> "1435".
+<http://www.constituteproject.org/constitution/Grenada_1980> <http://www.constituteproject.org/constitution/country> "Grenada".
+<http://www.constituteproject.org/constitution/Grenada_1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Grenada_1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1980".
+<http://www.constituteproject.org/constitution/Grenada_1981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Grenada_1981> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Grenada>.
+<http://www.constituteproject.org/constitution/Grenada_1981> <http://www.constituteproject.org/constitution/id> "1436".
+<http://www.constituteproject.org/constitution/Grenada_1981> <http://www.constituteproject.org/constitution/country> "Grenada".
+<http://www.constituteproject.org/constitution/Grenada_1981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Grenada_1981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1981".
+<http://www.constituteproject.org/constitution/Lesotho_1975> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Lesotho_1975> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Lesotho>.
+<http://www.constituteproject.org/constitution/Lesotho_1975> <http://www.constituteproject.org/constitution/id> "1474".
+<http://www.constituteproject.org/constitution/Lesotho_1975> <http://www.constituteproject.org/constitution/country> "Lesotho".
+<http://www.constituteproject.org/constitution/Lesotho_1975> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Lesotho_1975> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1975".
+<http://www.constituteproject.org/constitution/Niger_1983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Niger_1983> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Niger_the>.
+<http://www.constituteproject.org/constitution/Niger_1983> <http://www.constituteproject.org/constitution/id> "1531".
+<http://www.constituteproject.org/constitution/Niger_1983> <http://www.constituteproject.org/constitution/country> "Niger".
+<http://www.constituteproject.org/constitution/Niger_1983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Niger_1983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1983".
+<http://www.constituteproject.org/constitution/Nigeria_1967> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Nigeria_1967> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Nigeria>.
+<http://www.constituteproject.org/constitution/Nigeria_1967> <http://www.constituteproject.org/constitution/id> "1535".
+<http://www.constituteproject.org/constitution/Nigeria_1967> <http://www.constituteproject.org/constitution/country> "Nigeria".
+<http://www.constituteproject.org/constitution/Nigeria_1967> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Nigeria_1967> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1967".
+<http://www.constituteproject.org/constitution/Pakistan_1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Pakistan_1980> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Pakistan>.
+<http://www.constituteproject.org/constitution/Pakistan_1980> <http://www.constituteproject.org/constitution/id> "1548".
+<http://www.constituteproject.org/constitution/Pakistan_1980> <http://www.constituteproject.org/constitution/country> "Pakistan".
+<http://www.constituteproject.org/constitution/Pakistan_1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Pakistan_1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1980".
+<http://www.constituteproject.org/constitution/Pakistan_1981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Pakistan_1981> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Pakistan>.
+<http://www.constituteproject.org/constitution/Pakistan_1981> <http://www.constituteproject.org/constitution/id> "1549".
+<http://www.constituteproject.org/constitution/Pakistan_1981> <http://www.constituteproject.org/constitution/country> "Pakistan".
+<http://www.constituteproject.org/constitution/Pakistan_1981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Pakistan_1981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1981".
+<http://www.constituteproject.org/constitution/Lesotho_1971> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Lesotho_1971> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Lesotho>.
+<http://www.constituteproject.org/constitution/Lesotho_1971> <http://www.constituteproject.org/constitution/id> "1597".
+<http://www.constituteproject.org/constitution/Lesotho_1971> <http://www.constituteproject.org/constitution/country> "Lesotho".
+<http://www.constituteproject.org/constitution/Lesotho_1971> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Lesotho_1971> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1971".
+<http://www.constituteproject.org/constitution/Lesotho_1973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Lesotho_1973> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Lesotho>.
+<http://www.constituteproject.org/constitution/Lesotho_1973> <http://www.constituteproject.org/constitution/id> "1599".
+<http://www.constituteproject.org/constitution/Lesotho_1973> <http://www.constituteproject.org/constitution/country> "Lesotho".
+<http://www.constituteproject.org/constitution/Lesotho_1973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Lesotho_1973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1973".
+<http://www.constituteproject.org/constitution/Lesotho_1990> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Lesotho_1990> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Lesotho>.
+<http://www.constituteproject.org/constitution/Lesotho_1990> <http://www.constituteproject.org/constitution/id> "1604".
+<http://www.constituteproject.org/constitution/Lesotho_1990> <http://www.constituteproject.org/constitution/country> "Lesotho".
+<http://www.constituteproject.org/constitution/Lesotho_1990> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Lesotho_1990> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1990".
+<http://www.constituteproject.org/constitution/Lesotho_1991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Lesotho_1991> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Lesotho>.
+<http://www.constituteproject.org/constitution/Lesotho_1991> <http://www.constituteproject.org/constitution/id> "1605".
+<http://www.constituteproject.org/constitution/Lesotho_1991> <http://www.constituteproject.org/constitution/country> "Lesotho".
+<http://www.constituteproject.org/constitution/Lesotho_1991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Lesotho_1991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1991".
+<http://www.constituteproject.org/constitution/Liberia_1981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Liberia_1981> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Liberia>.
+<http://www.constituteproject.org/constitution/Liberia_1981> <http://www.constituteproject.org/constitution/id> "1607".
+<http://www.constituteproject.org/constitution/Liberia_1981> <http://www.constituteproject.org/constitution/country> "Liberia".
+<http://www.constituteproject.org/constitution/Liberia_1981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Liberia_1981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1981".
+<http://www.constituteproject.org/constitution/Nigeria_1985> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Nigeria_1985> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Nigeria>.
+<http://www.constituteproject.org/constitution/Nigeria_1985> <http://www.constituteproject.org/constitution/id> "1648".
+<http://www.constituteproject.org/constitution/Nigeria_1985> <http://www.constituteproject.org/constitution/country> "Nigeria".
+<http://www.constituteproject.org/constitution/Nigeria_1985> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Nigeria_1985> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1985".
+<http://www.constituteproject.org/constitution/Sudan_1995> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Sudan_1995> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Sudan_the>.
+<http://www.constituteproject.org/constitution/Sudan_1995> <http://www.constituteproject.org/constitution/id> "1722".
+<http://www.constituteproject.org/constitution/Sudan_1995> <http://www.constituteproject.org/constitution/country> "Sudan".
+<http://www.constituteproject.org/constitution/Sudan_1995> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Sudan_1995> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1995".
+<http://www.constituteproject.org/constitution/Uganda_1972> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Uganda_1972> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Uganda>.
+<http://www.constituteproject.org/constitution/Uganda_1972> <http://www.constituteproject.org/constitution/id> "1787".
+<http://www.constituteproject.org/constitution/Uganda_1972> <http://www.constituteproject.org/constitution/country> "Uganda".
+<http://www.constituteproject.org/constitution/Uganda_1972> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Uganda_1972> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1972".
+<http://www.constituteproject.org/constitution/Uganda_1973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Uganda_1973> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Uganda>.
+<http://www.constituteproject.org/constitution/Uganda_1973> <http://www.constituteproject.org/constitution/id> "1788".
+<http://www.constituteproject.org/constitution/Uganda_1973> <http://www.constituteproject.org/constitution/country> "Uganda".
+<http://www.constituteproject.org/constitution/Uganda_1973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Uganda_1973> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1973".
+<http://www.constituteproject.org/constitution/Uganda_1975> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Uganda_1975> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Uganda>.
+<http://www.constituteproject.org/constitution/Uganda_1975> <http://www.constituteproject.org/constitution/id> "1789".
+<http://www.constituteproject.org/constitution/Uganda_1975> <http://www.constituteproject.org/constitution/country> "Uganda".
+<http://www.constituteproject.org/constitution/Uganda_1975> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Uganda_1975> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1975".
+<http://www.constituteproject.org/constitution/Uganda_1976> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Uganda_1976> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Uganda>.
+<http://www.constituteproject.org/constitution/Uganda_1976> <http://www.constituteproject.org/constitution/id> "1790".
+<http://www.constituteproject.org/constitution/Uganda_1976> <http://www.constituteproject.org/constitution/country> "Uganda".
+<http://www.constituteproject.org/constitution/Uganda_1976> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Uganda_1976> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1976".
+<http://www.constituteproject.org/constitution/Uganda_1977> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Uganda_1977> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Uganda>.
+<http://www.constituteproject.org/constitution/Uganda_1977> <http://www.constituteproject.org/constitution/id> "1791".
+<http://www.constituteproject.org/constitution/Uganda_1977> <http://www.constituteproject.org/constitution/country> "Uganda".
+<http://www.constituteproject.org/constitution/Uganda_1977> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Uganda_1977> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1977".
+<http://www.constituteproject.org/constitution/Uganda_1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Uganda_1980> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Uganda>.
+<http://www.constituteproject.org/constitution/Uganda_1980> <http://www.constituteproject.org/constitution/id> "1792".
+<http://www.constituteproject.org/constitution/Uganda_1980> <http://www.constituteproject.org/constitution/country> "Uganda".
+<http://www.constituteproject.org/constitution/Uganda_1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Uganda_1980> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1980".
+<http://www.constituteproject.org/constitution/Lesotho_1974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Lesotho_1974> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Lesotho>.
+<http://www.constituteproject.org/constitution/Lesotho_1974> <http://www.constituteproject.org/constitution/id> "2488".
+<http://www.constituteproject.org/constitution/Lesotho_1974> <http://www.constituteproject.org/constitution/country> "Lesotho".
+<http://www.constituteproject.org/constitution/Lesotho_1974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Lesotho_1974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1974".
+<http://www.constituteproject.org/constitution/Pakistan_1984> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Pakistan_1984> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Pakistan>.
+<http://www.constituteproject.org/constitution/Pakistan_1984> <http://www.constituteproject.org/constitution/id> "2731".
+<http://www.constituteproject.org/constitution/Pakistan_1984> <http://www.constituteproject.org/constitution/country> "Pakistan".
+<http://www.constituteproject.org/constitution/Pakistan_1984> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Pakistan_1984> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1984".
+<http://www.constituteproject.org/constitution/Portugal_1975> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Portugal_1975> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Portugal>.
+<http://www.constituteproject.org/constitution/Portugal_1975> <http://www.constituteproject.org/constitution/id> "2794".
+<http://www.constituteproject.org/constitution/Portugal_1975> <http://www.constituteproject.org/constitution/country> "Portugal".
+<http://www.constituteproject.org/constitution/Portugal_1975> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Portugal_1975> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1975".
+<http://www.constituteproject.org/constitution/Sudan_1991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Sudan_1991> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Sudan_the>.
+<http://www.constituteproject.org/constitution/Sudan_1991> <http://www.constituteproject.org/constitution/id> "2930".
+<http://www.constituteproject.org/constitution/Sudan_1991> <http://www.constituteproject.org/constitution/country> "Sudan".
+<http://www.constituteproject.org/constitution/Sudan_1991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Sudan_1991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1991".
+<http://www.constituteproject.org/constitution/Sudan_1993> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Sudan_1993> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Sudan_the>.
+<http://www.constituteproject.org/constitution/Sudan_1993> <http://www.constituteproject.org/constitution/id> "2931".
+<http://www.constituteproject.org/constitution/Sudan_1993> <http://www.constituteproject.org/constitution/country> "Sudan".
+<http://www.constituteproject.org/constitution/Sudan_1993> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Sudan_1993> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1993".
+<http://www.constituteproject.org/constitution/Sudan_1997> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Sudan_1997> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Sudan_the>.
+<http://www.constituteproject.org/constitution/Sudan_1997> <http://www.constituteproject.org/constitution/id> "2932".
+<http://www.constituteproject.org/constitution/Sudan_1997> <http://www.constituteproject.org/constitution/country> "Sudan".
+<http://www.constituteproject.org/constitution/Sudan_1997> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Sudan_1997> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1997".
+<http://www.constituteproject.org/constitution/Burundi_1970> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Burundi_1970> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Burundi>.
+<http://www.constituteproject.org/constitution/Burundi_1970> <http://www.constituteproject.org/constitution/id> "3382".
+<http://www.constituteproject.org/constitution/Burundi_1970> <http://www.constituteproject.org/constitution/country> "Burundi".
+<http://www.constituteproject.org/constitution/Burundi_1970> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Burundi_1970> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1970".
+<http://www.constituteproject.org/constitution/Lesotho_1972> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Lesotho_1972> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Lesotho>.
+<http://www.constituteproject.org/constitution/Lesotho_1972> <http://www.constituteproject.org/constitution/id> "3384".
+<http://www.constituteproject.org/constitution/Lesotho_1972> <http://www.constituteproject.org/constitution/country> "Lesotho".
+<http://www.constituteproject.org/constitution/Lesotho_1972> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Lesotho_1972> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1972".
+<http://www.constituteproject.org/constitution/Pakistan_1979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Pakistan_1979> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Pakistan>.
+<http://www.constituteproject.org/constitution/Pakistan_1979> <http://www.constituteproject.org/constitution/id> "3402".
+<http://www.constituteproject.org/constitution/Pakistan_1979> <http://www.constituteproject.org/constitution/country> "Pakistan".
+<http://www.constituteproject.org/constitution/Pakistan_1979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Pakistan_1979> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1979".
+<http://www.constituteproject.org/constitution/Pakistan_1982> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Pakistan_1982> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Pakistan>.
+<http://www.constituteproject.org/constitution/Pakistan_1982> <http://www.constituteproject.org/constitution/id> "3403".
+<http://www.constituteproject.org/constitution/Pakistan_1982> <http://www.constituteproject.org/constitution/country> "Pakistan".
+<http://www.constituteproject.org/constitution/Pakistan_1982> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Pakistan_1982> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1982".
+<http://www.constituteproject.org/constitution/Pakistan_1983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Pakistan_1983> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Pakistan>.
+<http://www.constituteproject.org/constitution/Pakistan_1983> <http://www.constituteproject.org/constitution/id> "3404".
+<http://www.constituteproject.org/constitution/Pakistan_1983> <http://www.constituteproject.org/constitution/country> "Pakistan".
+<http://www.constituteproject.org/constitution/Pakistan_1983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "6. Suspension amendment".
+<http://www.constituteproject.org/constitution/Pakistan_1983> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1983".
+<http://www.constituteproject.org/constitution/Norway_1814> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Norway_1814> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Norway>.
+<http://www.constituteproject.org/constitution/Norway_1814> <http://www.constituteproject.org/constitution/id> "4080".
+<http://www.constituteproject.org/constitution/Norway_1814> <http://www.constituteproject.org/constitution/country> "Norway".
+<http://www.constituteproject.org/constitution/Norway_1814> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Norway_1814> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "1814".
+<http://www.constituteproject.org/constitution/Tunisia_2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Tunisia_2011> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Tunisia>.
+<http://www.constituteproject.org/constitution/Tunisia_2011> <http://www.constituteproject.org/constitution/id> "4319".
+<http://www.constituteproject.org/constitution/Tunisia_2011> <http://www.constituteproject.org/constitution/country> "Tunisia".
+<http://www.constituteproject.org/constitution/Tunisia_2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "2. Interim".
+<http://www.constituteproject.org/constitution/Tunisia_2011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2011".
+<http://www.constituteproject.org/constitution/Italy_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Italy_2021> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Italy>.
+<http://www.constituteproject.org/constitution/Italy_2021> <http://www.constituteproject.org/constitution/id> "10330".
+<http://www.constituteproject.org/constitution/Italy_2021> <http://www.constituteproject.org/constitution/country> "Italy".
+<http://www.constituteproject.org/constitution/Italy_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Italy_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2021".
+<http://www.constituteproject.org/constitution/Kyrgyz Republic_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Kyrgyz Republic_2021> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Kyrgyzstan>.
+<http://www.constituteproject.org/constitution/Kyrgyz Republic_2021> <http://www.constituteproject.org/constitution/id> "10333".
+<http://www.constituteproject.org/constitution/Kyrgyz Republic_2021> <http://www.constituteproject.org/constitution/country> "Kyrgyz Republic".
+<http://www.constituteproject.org/constitution/Kyrgyz Republic_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "3. New".
+<http://www.constituteproject.org/constitution/Kyrgyz Republic_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2021".
+<http://www.constituteproject.org/constitution/Liechtenstein_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Liechtenstein_2020> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Liechtenstein>.
+<http://www.constituteproject.org/constitution/Liechtenstein_2020> <http://www.constituteproject.org/constitution/id> "10334".
+<http://www.constituteproject.org/constitution/Liechtenstein_2020> <http://www.constituteproject.org/constitution/country> "Liechtenstein".
+<http://www.constituteproject.org/constitution/Liechtenstein_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Liechtenstein_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2020".
+<http://www.constituteproject.org/constitution/Malta_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Malta_2021> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Malta>.
+<http://www.constituteproject.org/constitution/Malta_2021> <http://www.constituteproject.org/constitution/id> "10335".
+<http://www.constituteproject.org/constitution/Malta_2021> <http://www.constituteproject.org/constitution/country> "Malta".
+<http://www.constituteproject.org/constitution/Malta_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "3. New".
+<http://www.constituteproject.org/constitution/Malta_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2021".
+<http://www.constituteproject.org/constitution/Mexico_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Mexico_2021> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Mexico>.
+<http://www.constituteproject.org/constitution/Mexico_2021> <http://www.constituteproject.org/constitution/id> "10336".
+<http://www.constituteproject.org/constitution/Mexico_2021> <http://www.constituteproject.org/constitution/country> "Mexico".
+<http://www.constituteproject.org/constitution/Mexico_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Mexico_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2021".
+<http://www.constituteproject.org/constitution/Moldova_2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Moldova_2018> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Maldives>.
+<http://www.constituteproject.org/constitution/Moldova_2018> <http://www.constituteproject.org/constitution/id> "10337".
+<http://www.constituteproject.org/constitution/Moldova_2018> <http://www.constituteproject.org/constitution/country> "Moldova".
+<http://www.constituteproject.org/constitution/Moldova_2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Moldova_2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2018".
+<http://www.constituteproject.org/constitution/Moldova_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Moldova_2021> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Maldives>.
+<http://www.constituteproject.org/constitution/Moldova_2021> <http://www.constituteproject.org/constitution/id> "10338".
+<http://www.constituteproject.org/constitution/Moldova_2021> <http://www.constituteproject.org/constitution/country> "Moldova".
+<http://www.constituteproject.org/constitution/Moldova_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Moldova_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2021".
+<http://www.constituteproject.org/constitution/Myanmar_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Myanmar_2020> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Myanmar>.
+<http://www.constituteproject.org/constitution/Myanmar_2020> <http://www.constituteproject.org/constitution/id> "10339".
+<http://www.constituteproject.org/constitution/Myanmar_2020> <http://www.constituteproject.org/constitution/country> "Myanmar".
+<http://www.constituteproject.org/constitution/Myanmar_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Myanmar_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2020".
+<http://www.constituteproject.org/constitution/Kosovo_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Kosovo_2020> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Kosovo>.
+<http://www.constituteproject.org/constitution/Kosovo_2020> <http://www.constituteproject.org/constitution/id> "10340".
+<http://www.constituteproject.org/constitution/Kosovo_2020> <http://www.constituteproject.org/constitution/country> "Kosovo".
+<http://www.constituteproject.org/constitution/Kosovo_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Kosovo_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2020".
+<http://www.constituteproject.org/constitution/Luxembourg_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Luxembourg_2020> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Luxembourg>.
+<http://www.constituteproject.org/constitution/Luxembourg_2020> <http://www.constituteproject.org/constitution/id> "10342".
+<http://www.constituteproject.org/constitution/Luxembourg_2020> <http://www.constituteproject.org/constitution/country> "Luxembourg".
+<http://www.constituteproject.org/constitution/Luxembourg_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Luxembourg_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2020".
+<http://www.constituteproject.org/constitution/Nicaragua_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Nicaragua_2020> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Nicaragua>.
+<http://www.constituteproject.org/constitution/Nicaragua_2020> <http://www.constituteproject.org/constitution/id> "10344".
+<http://www.constituteproject.org/constitution/Nicaragua_2020> <http://www.constituteproject.org/constitution/country> "Nicaragua".
+<http://www.constituteproject.org/constitution/Nicaragua_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Nicaragua_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2020".
+<http://www.constituteproject.org/constitution/Nicaragua_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Nicaragua_2021> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Nicaragua>.
+<http://www.constituteproject.org/constitution/Nicaragua_2021> <http://www.constituteproject.org/constitution/id> "10345".
+<http://www.constituteproject.org/constitution/Nicaragua_2021> <http://www.constituteproject.org/constitution/country> "Nicaragua".
+<http://www.constituteproject.org/constitution/Nicaragua_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Nicaragua_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2021".
+<http://www.constituteproject.org/constitution/Oman_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Oman_2021> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Oman>.
+<http://www.constituteproject.org/constitution/Oman_2021> <http://www.constituteproject.org/constitution/id> "10347".
+<http://www.constituteproject.org/constitution/Oman_2021> <http://www.constituteproject.org/constitution/country> "Oman".
+<http://www.constituteproject.org/constitution/Oman_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Oman_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2021".
+<http://www.constituteproject.org/constitution/Singapore_2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Singapore_2019> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Singapore>.
+<http://www.constituteproject.org/constitution/Singapore_2019> <http://www.constituteproject.org/constitution/id> "10350".
+<http://www.constituteproject.org/constitution/Singapore_2019> <http://www.constituteproject.org/constitution/country> "Singapore".
+<http://www.constituteproject.org/constitution/Singapore_2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Singapore_2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2019".
+<http://www.constituteproject.org/constitution/Singapore_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Singapore_2020> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Singapore>.
+<http://www.constituteproject.org/constitution/Singapore_2020> <http://www.constituteproject.org/constitution/id> "10351".
+<http://www.constituteproject.org/constitution/Singapore_2020> <http://www.constituteproject.org/constitution/country> "Singapore".
+<http://www.constituteproject.org/constitution/Singapore_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Singapore_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2020".
+<http://www.constituteproject.org/constitution/Singapore_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Singapore_2021> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Singapore>.
+<http://www.constituteproject.org/constitution/Singapore_2021> <http://www.constituteproject.org/constitution/id> "10352".
+<http://www.constituteproject.org/constitution/Singapore_2021> <http://www.constituteproject.org/constitution/country> "Singapore".
+<http://www.constituteproject.org/constitution/Singapore_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Singapore_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2021".
+<http://www.constituteproject.org/constitution/Slovakia_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Slovakia_2020> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Slovakia>.
+<http://www.constituteproject.org/constitution/Slovakia_2020> <http://www.constituteproject.org/constitution/id> "10354".
+<http://www.constituteproject.org/constitution/Slovakia_2020> <http://www.constituteproject.org/constitution/country> "Slovak Republic".
+<http://www.constituteproject.org/constitution/Slovakia_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Slovakia_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2020".
+<http://www.constituteproject.org/constitution/Sweden_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Sweden_2020> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Sweden>.
+<http://www.constituteproject.org/constitution/Sweden_2020> <http://www.constituteproject.org/constitution/id> "10355".
+<http://www.constituteproject.org/constitution/Sweden_2020> <http://www.constituteproject.org/constitution/country> "Sweden".
+<http://www.constituteproject.org/constitution/Sweden_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Sweden_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2020".
+<http://www.constituteproject.org/constitution/Sweden_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Sweden_2021> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Sweden>.
+<http://www.constituteproject.org/constitution/Sweden_2021> <http://www.constituteproject.org/constitution/id> "10356".
+<http://www.constituteproject.org/constitution/Sweden_2021> <http://www.constituteproject.org/constitution/country> "Sweden".
+<http://www.constituteproject.org/constitution/Sweden_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Sweden_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2021".
+<http://www.constituteproject.org/constitution/Switzerland_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Switzerland_2021> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Switzerland>.
+<http://www.constituteproject.org/constitution/Switzerland_2021> <http://www.constituteproject.org/constitution/id> "10357".
+<http://www.constituteproject.org/constitution/Switzerland_2021> <http://www.constituteproject.org/constitution/country> "Switzerland".
+<http://www.constituteproject.org/constitution/Switzerland_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Switzerland_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2021".
+<http://www.constituteproject.org/constitution/Tonga_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Tonga_2021> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Tonga>.
+<http://www.constituteproject.org/constitution/Tonga_2021> <http://www.constituteproject.org/constitution/id> "10359".
+<http://www.constituteproject.org/constitution/Tonga_2021> <http://www.constituteproject.org/constitution/country> "Tonga".
+<http://www.constituteproject.org/constitution/Tonga_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Tonga_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2021".
+<http://www.constituteproject.org/constitution/Turkmenistan_2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Turkmenistan_2017> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Turkmenistan>.
+<http://www.constituteproject.org/constitution/Turkmenistan_2017> <http://www.constituteproject.org/constitution/id> "10360".
+<http://www.constituteproject.org/constitution/Turkmenistan_2017> <http://www.constituteproject.org/constitution/country> "Turkmenistan".
+<http://www.constituteproject.org/constitution/Turkmenistan_2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Turkmenistan_2017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2017".
+<http://www.constituteproject.org/constitution/Turkmenistan_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Turkmenistan_2020> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Turkmenistan>.
+<http://www.constituteproject.org/constitution/Turkmenistan_2020> <http://www.constituteproject.org/constitution/id> "10361".
+<http://www.constituteproject.org/constitution/Turkmenistan_2020> <http://www.constituteproject.org/constitution/country> "Turkmenistan".
+<http://www.constituteproject.org/constitution/Turkmenistan_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Turkmenistan_2020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2020".
+<http://www.constituteproject.org/constitution/Tuvalu_2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Tuvalu_2018> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Tuvalu>.
+<http://www.constituteproject.org/constitution/Tuvalu_2018> <http://www.constituteproject.org/constitution/id> "10362".
+<http://www.constituteproject.org/constitution/Tuvalu_2018> <http://www.constituteproject.org/constitution/country> "Tuvalu".
+<http://www.constituteproject.org/constitution/Tuvalu_2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Tuvalu_2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2018".
+<http://www.constituteproject.org/constitution/Tuvalu_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Tuvalu_2021> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Tuvalu>.
+<http://www.constituteproject.org/constitution/Tuvalu_2021> <http://www.constituteproject.org/constitution/id> "10363".
+<http://www.constituteproject.org/constitution/Tuvalu_2021> <http://www.constituteproject.org/constitution/country> "Tuvalu".
+<http://www.constituteproject.org/constitution/Tuvalu_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Tuvalu_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2021".
+<http://www.constituteproject.org/constitution/Uzbekistan_2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Uzbekistan_2018> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Uzbekistan>.
+<http://www.constituteproject.org/constitution/Uzbekistan_2018> <http://www.constituteproject.org/constitution/id> "10364".
+<http://www.constituteproject.org/constitution/Uzbekistan_2018> <http://www.constituteproject.org/constitution/country> "Uzbekistan".
+<http://www.constituteproject.org/constitution/Uzbekistan_2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Uzbekistan_2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2018".
+<http://www.constituteproject.org/constitution/Uzbekistan_2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Uzbekistan_2019> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Uzbekistan>.
+<http://www.constituteproject.org/constitution/Uzbekistan_2019> <http://www.constituteproject.org/constitution/id> "10365".
+<http://www.constituteproject.org/constitution/Uzbekistan_2019> <http://www.constituteproject.org/constitution/country> "Uzbekistan".
+<http://www.constituteproject.org/constitution/Uzbekistan_2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Uzbekistan_2019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2019".
+<http://www.constituteproject.org/constitution/Uzbekistan_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Uzbekistan_2021> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Uzbekistan>.
+<http://www.constituteproject.org/constitution/Uzbekistan_2021> <http://www.constituteproject.org/constitution/id> "10366".
+<http://www.constituteproject.org/constitution/Uzbekistan_2021> <http://www.constituteproject.org/constitution/country> "Uzbekistan".
+<http://www.constituteproject.org/constitution/Uzbekistan_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Uzbekistan_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2021".
+<http://www.constituteproject.org/constitution/Serbia_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Serbia_2021> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Serbia>.
+<http://www.constituteproject.org/constitution/Serbia_2021> <http://www.constituteproject.org/constitution/id> "10367".
+<http://www.constituteproject.org/constitution/Serbia_2021> <http://www.constituteproject.org/constitution/country> "Serbia".
+<http://www.constituteproject.org/constitution/Serbia_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Serbia_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2021".
+<http://www.constituteproject.org/constitution/Zimbabwe_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event>.
+<http://www.constituteproject.org/constitution/Zimbabwe_2021> <http://www.constituteproject.org/constitution/isConstitutionOf> <http://www.constituteproject.org/ontology/Zimbabwe>.
+<http://www.constituteproject.org/constitution/Zimbabwe_2021> <http://www.constituteproject.org/constitution/id> "10368".
+<http://www.constituteproject.org/constitution/Zimbabwe_2021> <http://www.constituteproject.org/constitution/country> "Zimbabwe".
+<http://www.constituteproject.org/constitution/Zimbabwe_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_type> "1. Amendment".
+<http://www.constituteproject.org/constitution/Zimbabwe_2021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#event_year> "2021".

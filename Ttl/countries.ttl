@@ -17,7 +17,7 @@
 <http://www.constituteproject.org/ontology/Kosovo> <http://www.constituteproject.org/ontology/nameListEN> "Kosovo".
 <http://www.constituteproject.org/ontology/Kosovo> <http://www.constituteproject.org/ontology/nameListES> "Kosovo".
 <http://www.constituteproject.org/ontology/Fictional> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.constituteproject.org/ontology/geographical_region>.
-<http://www.constituteproject.org/ontology/Fictional> <http://www.constituteproject.org/ontology/nameListEN> "Fictional".
+<http://www.constituteproject.org/ontology/Fictional> <http://www.constituteproject.org/ontology/nameListEN> "ictional".
 <http://www.constituteproject.org/ontology/Fictional> <http://www.constituteproject.org/ontology/nameListES> "Ficticio".
 <http://www.constituteproject.org/ontology/Taiwan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.constituteproject.org/ontology/self_governing>.
 <http://www.constituteproject.org/ontology/Taiwan> <http://www.constituteproject.org/ontology/isInGroup> <http://www.constituteproject.org/ontology/Asia>.
