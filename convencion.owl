@@ -328,6 +328,11 @@ bcngeo:hasCUT rdf:type owl:DatatypeProperty ;
          rdfs:domain :RedSocial .
 
 
+###  http://www.imfd.cl/ontologia/convencion/detalle
+<http://www.imfd.cl/ontologia/convencion/detalle> rdf:type owl:DatatypeProperty ;
+                                                  rdfs:domain <http://www.constituteproject.org/ontology/Topics> .
+
+
 ###  http://www.imfd.cl/ontologia/convencion/hasConstName
 <http://www.imfd.cl/ontologia/convencion/hasConstName> rdf:type owl:DatatypeProperty ;
                                                        rdfs:domain <http://www.imfd.cl/ontologia/convencion/Constitution> .
