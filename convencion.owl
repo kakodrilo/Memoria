@@ -7934,7 +7934,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 <http://www.constituteproject.org/ontology/rellaw> rdf:type owl:Class ;
                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/Religion> ;
                                                    <http://purl.org/dc/terms/description> """
-   El establecimiento de una religión oficial, o religiones, para el estado. Otras constituciones establecen un trato especial para ciertas religiones, o por el contrario, se prohíbe expresamente el establecimiento de una religión oficial.
+   La ley religiosa y la ley constitucional interactúan de manera compleja. Las constituciones pueden tratar la ley religiosa como totalmente separada, integrada hasta cierto punto, aplicada en áreas donde la ley secular guarda silencio, se considera superior o se usa como fuente o inspiración para la ley secular.
   """@es ,
                                                                                           """
    Religious law and constitutional law interact in complex ways. Constitutions can treat religious law as entirely separate, integrated to some degree, applied in areas where secular law is silent, considered superior, or used as a source or inspiration for secular law.
