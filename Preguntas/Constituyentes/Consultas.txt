@@ -1,0 +1,97 @@
+# Candidatos menores de 35
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?name ?age 
+	WHERE {
+	?s rdf:type cc:Candidato .
+	?s rdf:type ?person .
+  	?person cc:age ?age .
+  	?person cc:name ?name .
+	FILTER (?age < "35"^^xsd:integer)
+	}
+
+
+
+# Constituyentes menores de 35
+
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?name ?age 
+	WHERE {
+	?s rdf:type cc:Constituyente .
+	?s rdf:type ?person .
+  	?person cc:age ?age .
+  	?person cc:name ?name .
+	FILTER (?age < "35"^^xsd:integer)
+	}
+
+# Cantidad discuros segun tema para constituyentes menores a 35 años
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT (?tema as ?Tema) (COUNT(?discurso) as ?Frecuencia)
+WHERE {
+  ?s rdf:type cc:Constituyente;
+     rdf:type ?person .
+  ?person cc:age ?edad .
+  
+  ?s cc:participaEnDiscurso ?discurso .
+  ?discurso cc:tieneTopico ?topico .
+  
+  ?topico cc:nombreTopico ?tema .
+  
+  FILTER (?edad < "35"^^xsd:integer)
+}
+GROUP BY ?tema 
+
+
+## Cantidad de constituyentes por partido politico
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?nombrePartido (COUNT(?person) as ?constituyentes)
+WHERE {
+  ?s rdf:type cc:Constituyente;
+     rdf:type ?person .
+  
+  ?person cc:perteneceAlPartidoPolitico ?partido .
+  ?partido cc:nombrePartido ?nombrePartido.
+}
+GROUP BY ?nombrePartido
+ORDER BY ?nombrePartido
+
+
+## Cantidad de discursos según tema y partido politico
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?nombrePartido ?nombreTopico (COUNT(?discurso) as ?Discursos)
+WHERE {
+  ?s rdf:type cc:Constituyente;
+     rdf:type ?person .
+  
+  ?person cc:perteneceAlPartidoPolitico ?partido .
+  ?partido cc:nombrePartido ?nombrePartido.
+  
+  ?s cc:participaEnDiscurso ?discurso .
+  ?discurso cc:tieneTopico ?topico .
+  ?topico cc:nombreTopico ?nombreTopico
+  
+}
+GROUP BY ?nombrePartido ?nombreTopico
+ORDER BY ?nombrePartido ?nombreTopico
+
