@@ -95,3 +95,38 @@ WHERE {
 GROUP BY ?nombrePartido ?nombreTopico
 ORDER BY ?nombrePartido ?nombreTopico
 
+
+## Cantidad de discursos por fecha
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX ccp: <http://www.imfd.cl/ontologia/convencion/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?fecha (COUNT(?discurso) as ?cantidadDiscursos)
+WHERE {
+  ?discurso rdf:type cc:Discurso .
+  ?discurso cc:fecha ?fecha .
+}
+group by ?fecha
+
+
+## Cantidad de discrusos según fecha y tema
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX ccp: <http://www.imfd.cl/ontologia/convencion/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?fecha ?nombreTopico (COUNT(?discurso) as ?cantidadDiscursos)
+WHERE {
+  ?discurso rdf:type cc:Discurso .
+  ?discurso cc:fecha ?fecha .
+  
+  ?discurso cc:tieneTopico ?topico .
+  
+  ?topico cc:nombreTopico ?nombreTopico .
+}
+group by ?fecha ?nombreTopico
