@@ -1,0 +1,218 @@
+## Cantidad de consituciones nuevas e internas de pasises de america
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX ccp: <http://www.constituteproject.org/ontology/>
+PREFIX ccpc: <http://www.constituteproject.org/constitution/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?nombrePais (COUNT (?const) as ?Cantidad)
+WHERE {
+  ?pais rdf:type ccp:self_governing .
+  ?pais ccp:nameListES ?nombrePais .
+  ?pais ccp:isInGroup ccp:Americas .
+  
+  ?const ccpc:isConstitutionOf ?pais .
+  ?const rdf:event_type ?tipo .
+  
+  FILTER ( ?tipo IN ('New', 'Interim' ) ).
+}
+Group by ?nombrePais
+Order by DESC (?Cantidad)
+
+
+## Año de las constituciones de chile y RD 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX ccp: <http://www.constituteproject.org/ontology/>
+PREFIX ccpc: <http://www.constituteproject.org/constitution/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?nombrePais ?año
+WHERE {
+  ?const ccpc:isConstitutionOf ?pais .
+  ?pais ccp:nameListES ?nombrePais .
+  
+  ?const rdf:event_year ?año ;
+         rdf:event_type ?tipo .
+  
+  FILTER (?nombrePais IN ('Chile', 'República Dominicana')) .
+  FILTER (?tipo IN ('New', 'Interim')) .
+}
+ORDER BY ?año
+
+
+## Año de la última constitucion de cada pais
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX ccp: <http://www.constituteproject.org/ontology/>
+PREFIX ccpc: <http://www.constituteproject.org/constitution/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?nombrePais (MAX(?año) as ?Año)
+WHERE {
+  ?const ccpc:isConstitutionOf ?pais .
+  ?pais ccp:nameListES ?nombrePais;
+        ccp:isInGroup ccp:World .
+  
+  ?const rdf:event_year ?año ;
+         rdf:event_type ?tipo .
+  
+  FILTER (?tipo IN ('New', 'Interim')) .
+}
+Group by ?nombrePais
+ORDER BY ?nombrePais
+
+
+## año de la ultmm constitucion o enmienda de cada pais
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX ccp: <http://www.constituteproject.org/ontology/>
+PREFIX ccpc: <http://www.constituteproject.org/constitution/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?nombrePais (MAX(?año) as ?Año)
+WHERE {
+  ?const ccpc:isConstitutionOf ?pais .
+  ?pais ccp:nameListES ?nombrePais;
+        ccp:isInGroup ccp:World .
+  
+  ?const rdf:event_year ?año ;
+         rdf:event_type ?tipo .
+  
+  FILTER (?tipo IN ('New', 'Interim', 'Amendment')) .
+}
+Group by ?nombrePais
+ORDER BY ?nombrePais
+
+## Cantidad de apariciones de temas en eventos
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX ccp: <http://www.constituteproject.org/ontology/>
+PREFIX ccpc: <http://www.constituteproject.org/constitution/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?nombreTopico (COUNT(?evento) as ?eventos)
+WHERE {
+  ?evento rdf:type ?topico .
+  ?topico rdfs:subClassOf* ccp:Topics ;
+          rdfs:label ?nombreTopico .
+  
+  FILTER(LANG(?nombreTopico) = "es") .
+  
+}
+Group by ?nombreTopico
+ORDER BY DESC (?eventos)
+
+## Cantidad de aparaciiones de temas en constituciones implementadas
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX ccp: <http://www.constituteproject.org/ontology/>
+PREFIX ccpc: <http://www.constituteproject.org/constitution/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?nombreTopico (COUNT(?evento) as ?eventos)
+WHERE {
+  ?evento rdf:type ?topico .
+  ?topico rdfs:subClassOf* ccp:Topics ;
+          rdfs:label ?nombreTopico .
+  
+  ?evento rdf:event_type ?tipo .
+  
+  FILTER(LANG(?nombreTopico) = "es") .
+  FILTER(?tipo IN ('New', 'Amendment','Interim'))
+}
+Group by ?nombreTopico
+ORDER BY DESC (?eventos)
+
+
+## Cantidad de apariciones de temas en constituciones de America
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX ccp: <http://www.constituteproject.org/ontology/>
+PREFIX ccpc: <http://www.constituteproject.org/constitution/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?nombreTopico (COUNT(?evento) as ?eventos)
+WHERE {
+  ?evento rdf:type ?topico .
+  ?topico rdfs:subClassOf* ccp:Topics ;
+          rdfs:label ?nombreTopico .
+  
+  ?evento rdf:event_type ?tipo .
+  
+  ?evento rdf:type rdf:event ;
+          ccpc:isConstitutionOf ?pais .
+  
+  ?pais ccp:isInGroup ccp:Americas .
+  
+  FILTER(LANG(?nombreTopico) = "es") .
+  FILTER(?tipo IN ('New', 'Amendment','Interim'))
+}
+Group by ?nombreTopico
+ORDER BY DESC (?eventos)
+
+
+## Cantidad de apariciones de temas en constituciones de Europa
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX ccp: <http://www.constituteproject.org/ontology/>
+PREFIX ccpc: <http://www.constituteproject.org/constitution/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?nombreTopico (COUNT(?evento) as ?eventos)
+WHERE {
+  ?evento rdf:type ?topico .
+  ?topico rdfs:subClassOf* ccp:Topics ;
+          rdfs:label ?nombreTopico .
+  
+  ?evento rdf:event_type ?tipo .
+  
+  ?evento rdf:type rdf:event ;
+          ccpc:isConstitutionOf ?pais .
+  
+  ?pais ccp:isInGroup ccp:Europe .
+  
+  FILTER(LANG(?nombreTopico) = "es") .
+  FILTER(?tipo IN ('New', 'Amendment','Interim'))
+}
+Group by ?nombreTopico
+ORDER BY DESC (?eventos)
+
+
+## Cantidad de apariciones de temas en const de Sudamerica
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX ccp: <http://www.constituteproject.org/ontology/>
+PREFIX ccpc: <http://www.constituteproject.org/constitution/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?nombreTopico (COUNT(?evento) as ?eventos)
+WHERE {
+  ?evento rdf:type ?topico .
+  ?topico rdfs:subClassOf* ccp:Topics ;
+          rdfs:label ?nombreTopico .
+  
+  ?evento rdf:event_type ?tipo .
+  
+  ?evento rdf:type rdf:event ;
+          ccpc:isConstitutionOf ?pais .
+  
+  ?pais ccp:isInGroup ccp:southern_America .
+  
+  FILTER(LANG(?nombreTopico) = "es") .
+  FILTER(?tipo IN ('New', 'Amendment','Interim'))
+}
+Group by ?nombreTopico
+ORDER BY DESC (?eventos)
