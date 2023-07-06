@@ -1,194 +1,192 @@
-nombrePais,Año
-Afganistán,2004
-Albania,2020
-Alemania,2020
-Andorra,1993
-Angola,2010
-Antigua y Barbuda,1981
-Arabia Saudita,2013
-Argelia,2020
-Argentina,1994
-Armenia,2020
-Australia,1985
-Austria,2021
-Azerbaiyán,2016
-Bahamas,1973
-Bahrein,2017
-Bangladesh,2018
-Barbados,2021
-Belarús,2004
-Belice,2021
-Benin,2019
-Bhután,2008
-Bolivia (Estado Plurinacional de),2009
-Bosnia y Herzegovina,2009
-Botswana,2021
-Brasil,2021
-Brunei Darussalam,2006
-Bulgaria,2015
-Burkina Faso,2015
-Burundi,2018
-Bélgica,2021
-Cabo Verde,2010
-Camboya,2014
-Camerún,2008
-Canadá,2011
-Chad,2018
-Chile,2021
-China,2018
-Chipre,2020
-Colombia,2021
-Comoras,2018
-Congo,2015
-Costa Rica,2020
-Croacia,2013
-Cuba,2019
-Côte d'Ivoire,2020
-Dinamarca,1953
-Djibouti,2010
-Dominica,2014
-Ecuador,2021
-Egipto,2019
-El Salvador,2014
-Emiratos Árabes Unidos,2009
-Eritrea,1997
-Eslovaquia,2020
-Eslovenia,2016
-España,2011
-Estados Unidos de América,1992
-Estonia,2015
-Etiopía,1994
-Federación de Rusia,2020
-Fiji,2013
-Filipinas,1987
-Finlandia,2018
-Francia,2008
-Gabón,2020
-Gambia,2018
-Georgia,2020
-Ghana,1996
-Granada,1992
-Grecia,2019
-Guatemala,1993
-Guinea,2020
-Guinea Ecuatorial,2012
-Guinea-Bissau,1996
-Guyana,2016
-Haití,2012
-Honduras,2021
-Hungría,2020
-India,2021
-Indonesia,2002
-Iraq,2005
-Irlanda,2019
-Irán (República Islámica del),1989
-Islandia,2013
-Islas Marshall,1995
-Islas Salomón,2018
-Israel,2020
-Italia,2021
-Jamaica,2017
-Japón,1946
-Jordania,2016
-Kazajstán,2019
-Kenya,2010
-Kirguistán,2021
-Kiribati,2016
-Kosovo,2020
-Kuwait,1976
-Lesotho,2020
-Letonia,2018
-Liberia,1986
-Libia,2018
-Liechtenstein,2020
-Lituania,2019
-Luxemburgo,2020
-Líbano,2004
-Madagascar,2010
-Malasia,2019
-Malawi,2017
-Maldivas,2021
-Malta,2021
-Malí,2020
-Marruecos,2011
-Mauricio,2016
-Mauritania,2017
-Micronesia (Estados Federados de),1990
-Mongolia,2019
-Montenegro,2013
-Mozambique,2018
-Myanmar,2020
-México,2021
-Mónaco,2002
-Namibia,2014
-Nauru,2018
-Nepal,2020
-Nicaragua,2021
-Nigeria,2018
-Noruega,2020
-Nueva Zelandia,2020
-Níger,2017
-Omán,2021
-Pakistán,2019
-Palau,1992
-Panamá,2004
-Papua Nueva Guinea,2016
-Paraguay,2011
-Países Bajos,2018
-Perú,2021
-Polonia,2009
-Portugal,2005
-Qatar,2003
-Reino Unido,2013
-República Centroafricana,2016
-República Checa,2013
-República Democrática Popular Lao,2015
-República Democrática del Congo,2011
-República Dominicana,2015
-República Popular Democrática de Corea,2019
-República Unida de Tanzanía,2005
-República de Corea,1987
-República de Moldova,2017
-República Árabe Siria,2012
-Rumania,2003
-Rwanda,2015
-Saint Kitts y Nevis,1983
-Samoa,2021
-San Vicente y las Granadinas,1979
-Santa Lucía,1978
-Santo Tomé y Príncipe,2003
-Senegal,2019
-Serbia,2021
-Seychelles,2018
-Sierra Leona,2016
-Singapur,2021
-Somalia,2016
-Sri Lanka,2020
-Sudáfrica,2012
-Sudán,2020
-Sudán del Sur,2018
-Suecia,2021
-Suriname,1992
-Swazilandia,2005
-Tailandia,2017
-Taiwan,2005
-Tayikistán,2016
-Timor-Leste,2002
-Togo,2019
-Tonga,2021
-Trinidad y Tabago,2007
-Turkmenistán,2020
-Turquía,2017
-Tuvalu,2021
-Túnez,2014
-Ucrania,2019
-Uganda,2017
-Uruguay,2004
-Uzbekistán,2021
-Vanuatu,2013
-Venezuela (República Bolivariana de),2009
-Viet Nam,2013
-Yemen,2015
-Zambia,2016
-Zimbabwe,2021
-la ex República Yugoslava de Macedonia,2019
+"Pais","ISO3","codeUN","Año"
+"Afganistán","AFG","004","2004"
+"Albania","ALB","008","2020"
+"Alemania","DEU","276","2020"
+"Andorra","AND","020","1993"
+"Angola","AGO","024","2010"
+"Antigua y Barbuda","ATG","028","1981"
+"Arabia Saudita","SAU","682","2013"
+"Argelia","DZA","012","2020"
+"Argentina","ARG","032","1994"
+"Armenia","ARM","051","2020"
+"Australia","AUS","036","1985"
+"Austria","AUT","040","2021"
+"Azerbaiyán","AZE","031","2016"
+"Bahamas","BHS","044","1973"
+"Bahrein","BHR","048","2017"
+"Bangladesh","BGD","050","2018"
+"Barbados","BRB","052","2021"
+"Belarús","BLR","112","2004"
+"Belice","BLZ","084","2021"
+"Benin","BEN","204","2019"
+"Bhután","BTN","064","2008"
+"Bolivia (Estado Plurinacional de)","BOL","068","2009"
+"Bosnia y Herzegovina","BIH","070","2009"
+"Botswana","BWA","072","2021"
+"Brasil","BRA","076","2021"
+"Brunei Darussalam","BRN","096","2006"
+"Bulgaria","BGR","100","2015"
+"Burkina Faso","BFA","854","2015"
+"Burundi","BDI","108","2018"
+"Bélgica","BEL","056","2021"
+"Cabo Verde","CPV","132","2010"
+"Camboya","KHM","116","2014"
+"Camerún","CMR","120","2008"
+"Canadá","CAN","124","2011"
+"Chad","TCD","148","2018"
+"Chile","CHL","152","2021"
+"China","CHN","156","2018"
+"Chipre","CYP","196","2020"
+"Colombia","COL","170","2021"
+"Comoras","COM","174","2018"
+"Congo","COG","178","2015"
+"Costa Rica","CRI","188","2020"
+"Croacia","HRV","191","2013"
+"Cuba","CUB","192","2019"
+"Côte d'Ivoire","CIV","384","2020"
+"Dinamarca","DNK","208","1953"
+"Djibouti","DJI","262","2010"
+"Dominica","DMA","212","2014"
+"Ecuador","ECU","218","2021"
+"Egipto","EGY","818","2019"
+"El Salvador","SLV","222","2014"
+"Emiratos Árabes Unidos","ARE","784","2009"
+"Eritrea","ERI","232","1997"
+"Eslovaquia","SVK","703","2020"
+"Eslovenia","SVN","705","2016"
+"España","ESP","724","2011"
+"Estados Unidos de América","USA","840","1992"
+"Estonia","EST","233","2015"
+"Etiopía","ETH","231","1994"
+"Federación de Rusia","RUS","643","2020"
+"Fiji","FJI","242","2013"
+"Filipinas","PHL","608","1987"
+"Finlandia","FIN","246","2018"
+"Francia","FRA","250","2008"
+"Gabón","GAB","266","2020"
+"Gambia","GMB","270","2018"
+"Georgia","GEO","268","2020"
+"Ghana","GHA","288","1996"
+"Granada","GRD","308","1992"
+"Grecia","GRC","300","2019"
+"Guatemala","GTM","320","1993"
+"Guinea","GIN","324","2020"
+"Guinea Ecuatorial","GNQ","226","2012"
+"Guinea-Bissau","GNB","624","1996"
+"Guyana","GUY","328","2016"
+"Haití","HTI","332","2012"
+"Honduras","HND","340","2021"
+"Hungría","HUN","348","2020"
+"India","IND","356","2021"
+"Indonesia","IDN","360","2002"
+"Iraq","IRQ","368","2005"
+"Irlanda","IRL","372","2019"
+"Irán (República Islámica del)","IRN","364","1989"
+"Islandia","ISL","352","2013"
+"Islas Marshall","MHL","584","1995"
+"Islas Salomón","SLB","090","2018"
+"Israel","ISR","376","2020"
+"Italia","ITA","380","2021"
+"Jamaica","JAM","388","2017"
+"Japón","JPN","392","1946"
+"Jordania","JOR","400","2016"
+"Kazajstán","KAZ","398","2019"
+"Kenya","KEN","404","2010"
+"Kirguistán","KGZ","417","2021"
+"Kiribati","KIR","296","2016"
+"Kuwait","KWT","414","1976"
+"Lesotho","LSO","426","2020"
+"Letonia","LVA","428","2018"
+"Liberia","LBR","430","1986"
+"Libia","LBY","434","2018"
+"Liechtenstein","LIE","438","2020"
+"Lituania","LTU","440","2019"
+"Luxemburgo","LUX","442","2020"
+"Líbano","LBN","422","2004"
+"Madagascar","MDG","450","2010"
+"Malasia","MYS","458","2019"
+"Malawi","MWI","454","2017"
+"Maldivas","MDV","462","2021"
+"Malta","MLT","470","2021"
+"Malí","MLI","466","2020"
+"Marruecos","MAR","504","2011"
+"Mauricio","MUS","480","2016"
+"Mauritania","MRT","478","2017"
+"Micronesia (Estados Federados de)","FSM","583","1990"
+"Mongolia","MNG","496","2019"
+"Montenegro","MNE","499","2013"
+"Mozambique","MOZ","508","2018"
+"Myanmar","MMR","104","2020"
+"México","MEX","484","2021"
+"Mónaco","MCO","492","2002"
+"Namibia","NAM","516","2014"
+"Nauru","NRU","520","2018"
+"Nepal","NPL","524","2020"
+"Nicaragua","NIC","558","2021"
+"Nigeria","NGA","566","2018"
+"Noruega","NOR","578","2020"
+"Nueva Zelandia","NZL","554","2020"
+"Níger","NER","562","2017"
+"Omán","OMN","512","2021"
+"Pakistán","PAK","586","2019"
+"Palau","PLW","585","1992"
+"Panamá","PAN","591","2004"
+"Papua Nueva Guinea","PNG","598","2016"
+"Paraguay","PRY","600","2011"
+"Países Bajos","NLD","528","2018"
+"Perú","PER","604","2021"
+"Polonia","POL","616","2009"
+"Portugal","PRT","620","2005"
+"Qatar","QAT","634","2003"
+"Reino Unido","GBR","826","2013"
+"República Centroafricana","CAF","140","2016"
+"República Checa","CZE","203","2013"
+"República Democrática Popular Lao","LAO","418","2015"
+"República Democrática del Congo","COD","180","2011"
+"República Dominicana","DOM","214","2015"
+"República Popular Democrática de Corea","PRK","408","2019"
+"República Unida de Tanzanía","TZA","834","2005"
+"República de Corea","KOR","410","1987"
+"República de Moldova","MDA","498","2017"
+"República Árabe Siria","SYR","760","2012"
+"Rumania","ROU","642","2003"
+"Rwanda","RWA","646","2015"
+"Saint Kitts y Nevis","KNA","659","1983"
+"Samoa","WSM","882","2021"
+"San Vicente y las Granadinas","VCT","670","1979"
+"Santa Lucía","LCA","662","1978"
+"Santo Tomé y Príncipe","STP","678","2003"
+"Senegal","SEN","686","2019"
+"Serbia","SRB","688","2021"
+"Seychelles","SYC","690","2018"
+"Sierra Leona","SLE","694","2016"
+"Singapur","SGP","702","2021"
+"Somalia","SOM","706","2016"
+"Sri Lanka","LKA","144","2020"
+"Sudáfrica","ZAF","710","2012"
+"Sudán","SDN","729","2020"
+"Sudán del Sur","SSD","728","2018"
+"Suecia","SWE","752","2021"
+"Suriname","SUR","740","1992"
+"Swazilandia","SWZ","748","2005"
+"Tailandia","THA","764","2017"
+"Tayikistán","TJK","762","2016"
+"Timor-Leste","TLS","626","2002"
+"Togo","TGO","768","2019"
+"Tonga","TON","776","2021"
+"Trinidad y Tabago","TTO","780","2007"
+"Turkmenistán","TKM","795","2020"
+"Turquía","TUR","792","2017"
+"Tuvalu","TUV","798","2021"
+"Túnez","TUN","788","2014"
+"Ucrania","UKR","804","2019"
+"Uganda","UGA","800","2017"
+"Uruguay","URY","858","2004"
+"Uzbekistán","UZB","860","2021"
+"Vanuatu","VUT","548","2013"
+"Venezuela (República Bolivariana de)","VEN","862","2009"
+"Viet Nam","VNM","704","2013"
+"Yemen","YEM","887","2015"
+"Zambia","ZMB","894","2016"
+"Zimbabwe","ZWE","716","2021"
+"la ex República Yugoslava de Macedonia","MKD","807","2019"

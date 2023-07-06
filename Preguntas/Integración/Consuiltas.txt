@@ -1,0 +1,50 @@
+## Cantidad de discursos por tema
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX ccp: <http://www.constituteproject.org/ontology/>
+PREFIX ccpc: <http://www.constituteproject.org/constitution/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+Select ?nombreTopico (COUNT(?discurso) as ?discursos)
+WHERE {
+  ?tema rdf:type cc:Topico ;
+        cc:nombreTopico ?nombreTopico .
+  
+  ?discurso cc:tieneTopico ?tema .
+            
+
+}
+GROUP BY (?nombreTopico)
+ORDER BY DESC (?discursos)
+
+
+
+## cantidad de const relacionadas a los temas cc
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX ccp: <http://www.constituteproject.org/ontology/>
+PREFIX ccpc: <http://www.constituteproject.org/constitution/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+Select (MIN(?nombreTopico) as ?Topico) (COUNT(?const) as ?constituciones)
+WHERE {
+  {
+  ?tema rdf:type cc:Topico ;
+        cc:nombreTopico ?nombreTopico .
+  
+  ?tema cc:incluidoEn ?const .
+  } 
+  UNION
+  {
+  ?tema rdf:type cc:Topico ;
+        cc:nombreTopico ?nombreTopico .
+  
+  ?const cc:incluyeParteDe ?tema .
+  }
+}
+GROUP BY (?tema)
+ORDER BY DESC (?constituciones)

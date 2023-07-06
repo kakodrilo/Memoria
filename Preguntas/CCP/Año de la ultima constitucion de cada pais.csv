@@ -1,194 +1,192 @@
-nombrePais,Año
-Afganistán,2004
-Albania,1998
-Alemania,1949
-Andorra,1993
-Angola,2010
-Antigua y Barbuda,1981
-Arabia Saudita,1992
-Argelia,2020
-Argentina,1976
-Armenia,1995
-Australia,1901
-Austria,1934
-Azerbaiyán,1995
-Bahamas,1973
-Bahrein,2002
-Bangladesh,1972
-Barbados,1966
-Belarús,1994
-Belice,1981
-Benin,1990
-Bhután,2008
-Bolivia (Estado Plurinacional de),2009
-Bosnia y Herzegovina,1995
-Botswana,1966
-Brasil,1988
-Brunei Darussalam,1959
-Bulgaria,1991
-Burkina Faso,1991
-Burundi,2018
-Bélgica,1831
-Cabo Verde,1980
-Camboya,1993
-Camerún,1972
-Canadá,1867
-Chad,2018
-Chile,1980
-China,1982
-Chipre,1960
-Colombia,1991
-Comoras,2018
-Congo,2015
-Costa Rica,1949
-Croacia,1991
-Cuba,2019
-Côte d'Ivoire,2016
-Dinamarca,1953
-Djibouti,1992
-Dominica,1978
-Ecuador,2008
-Egipto,2014
-El Salvador,1983
-Emiratos Árabes Unidos,1971
-Eritrea,1997
-Eslovaquia,1992
-Eslovenia,1991
-España,1978
-Estados Unidos de América,1789
-Estonia,1992
-Etiopía,1994
-Federación de Rusia,1993
-Fiji,2013
-Filipinas,1987
-Finlandia,1999
-Francia,1958
-Gabón,1991
-Gambia,1996
-Georgia,1995
-Ghana,1992
-Granada,1974
-Grecia,1975
-Guatemala,1985
-Guinea,2020
-Guinea Ecuatorial,1991
-Guinea-Bissau,1984
-Guyana,1980
-Haití,1987
-Honduras,1982
-Hungría,2011
-India,1949
-Indonesia,1955
-Iraq,2005
-Irlanda,1937
-Irán (República Islámica del),1979
-Islandia,1944
-Islas Marshall,1979
-Islas Salomón,1978
-Israel,1958
-Italia,1947
-Jamaica,1962
-Japón,1946
-Jordania,1952
-Kazajstán,1995
-Kenya,2010
-Kirguistán,2021
-Kiribati,1979
-Kosovo,2008
-Kuwait,1962
-Lesotho,1993
-Letonia,1940
-Liberia,1986
-Libia,2011
-Liechtenstein,1921
-Lituania,1992
-Luxemburgo,1868
-Líbano,1926
-Madagascar,2010
-Malasia,1957
-Malawi,1994
-Maldivas,2008
-Malta,2021
-Malí,2020
-Marruecos,2011
-Mauricio,1968
-Mauritania,1991
-Micronesia (Estados Federados de),1978
-Mongolia,1992
-Montenegro,2007
-Mozambique,2004
-Myanmar,2008
-México,1917
-Mónaco,1962
-Namibia,1990
-Nauru,1968
-Nepal,2015
-Nicaragua,1987
-Nigeria,1999
-Noruega,1814
-Nueva Zelandia,1852
-Níger,2010
-Omán,1996
-Pakistán,1973
-Palau,1981
-Panamá,1972
-Papua Nueva Guinea,1975
-Paraguay,1992
-Países Bajos,1814
-Perú,1993
-Polonia,1997
-Portugal,1976
-Qatar,2003
-Reino Unido,1215
-República Centroafricana,2016
-República Checa,1993
-República Democrática Popular Lao,1991
-República Democrática del Congo,2005
-República Dominicana,2015
-República Popular Democrática de Corea,1972
-República Unida de Tanzanía,1977
-República de Corea,1948
-República de Moldova,1994
-República Árabe Siria,2012
-Rumania,1991
-Rwanda,2003
-Saint Kitts y Nevis,1983
-Samoa,1962
-San Vicente y las Granadinas,1979
-Santa Lucía,1978
-Santo Tomé y Príncipe,1975
-Senegal,2001
-Serbia,2006
-Seychelles,1993
-Sierra Leona,1991
-Singapur,1963
-Somalia,2012
-Sri Lanka,1978
-Sudáfrica,1996
-Sudán,2019
-Sudán del Sur,2011
-Suecia,1974
-Suriname,1987
-Swazilandia,2005
-Tailandia,2017
-Taiwan,1947
-Tayikistán,1994
-Timor-Leste,2002
-Togo,1992
-Tonga,1875
-Trinidad y Tabago,1976
-Turkmenistán,2008
-Turquía,1982
-Tuvalu,1986
-Túnez,2014
-Ucrania,1996
-Uganda,1995
-Uruguay,1966
-Uzbekistán,1992
-Vanuatu,1980
-Venezuela (República Bolivariana de),1999
-Viet Nam,1992
-Yemen,1991
-Zambia,1991
-Zimbabwe,2013
-la ex República Yugoslava de Macedonia,1991
+"Pais","ISO3","codeUN","Año"
+"Reino Unido","GBR","826","1215"
+"Estados Unidos de América","USA","840","1789"
+"Noruega","NOR","578","1814"
+"Países Bajos","NLD","528","1814"
+"Bélgica","BEL","056","1831"
+"Nueva Zelandia","NZL","554","1852"
+"Canadá","CAN","124","1867"
+"Luxemburgo","LUX","442","1868"
+"Tonga","TON","776","1875"
+"Australia","AUS","036","1901"
+"México","MEX","484","1917"
+"Liechtenstein","LIE","438","1921"
+"Líbano","LBN","422","1926"
+"Austria","AUT","040","1934"
+"Irlanda","IRL","372","1937"
+"Letonia","LVA","428","1940"
+"Islandia","ISL","352","1944"
+"Japón","JPN","392","1946"
+"Italia","ITA","380","1947"
+"República de Corea","KOR","410","1948"
+"Alemania","DEU","276","1949"
+"Costa Rica","CRI","188","1949"
+"India","IND","356","1949"
+"Jordania","JOR","400","1952"
+"Dinamarca","DNK","208","1953"
+"Indonesia","IDN","360","1955"
+"Malasia","MYS","458","1957"
+"Francia","FRA","250","1958"
+"Israel","ISR","376","1958"
+"Brunei Darussalam","BRN","096","1959"
+"Chipre","CYP","196","1960"
+"Jamaica","JAM","388","1962"
+"Kuwait","KWT","414","1962"
+"Mónaco","MCO","492","1962"
+"Samoa","WSM","882","1962"
+"Singapur","SGP","702","1963"
+"Barbados","BRB","052","1966"
+"Botswana","BWA","072","1966"
+"Uruguay","URY","858","1966"
+"Mauricio","MUS","480","1968"
+"Nauru","NRU","520","1968"
+"Emiratos Árabes Unidos","ARE","784","1971"
+"Bangladesh","BGD","050","1972"
+"Camerún","CMR","120","1972"
+"Panamá","PAN","591","1972"
+"República Popular Democrática de Corea","PRK","408","1972"
+"Bahamas","BHS","044","1973"
+"Pakistán","PAK","586","1973"
+"Granada","GRD","308","1974"
+"Suecia","SWE","752","1974"
+"Grecia","GRC","300","1975"
+"Papua Nueva Guinea","PNG","598","1975"
+"Santo Tomé y Príncipe","STP","678","1975"
+"Argentina","ARG","032","1976"
+"Portugal","PRT","620","1976"
+"Trinidad y Tabago","TTO","780","1976"
+"República Unida de Tanzanía","TZA","834","1977"
+"Dominica","DMA","212","1978"
+"España","ESP","724","1978"
+"Islas Salomón","SLB","090","1978"
+"Micronesia (Estados Federados de)","FSM","583","1978"
+"Santa Lucía","LCA","662","1978"
+"Sri Lanka","LKA","144","1978"
+"Irán (República Islámica del)","IRN","364","1979"
+"Islas Marshall","MHL","584","1979"
+"Kiribati","KIR","296","1979"
+"San Vicente y las Granadinas","VCT","670","1979"
+"Cabo Verde","CPV","132","1980"
+"Chile","CHL","152","1980"
+"Guyana","GUY","328","1980"
+"Vanuatu","VUT","548","1980"
+"Antigua y Barbuda","ATG","028","1981"
+"Belice","BLZ","084","1981"
+"Palau","PLW","585","1981"
+"China","CHN","156","1982"
+"Honduras","HND","340","1982"
+"Turquía","TUR","792","1982"
+"El Salvador","SLV","222","1983"
+"Saint Kitts y Nevis","KNA","659","1983"
+"Guinea-Bissau","GNB","624","1984"
+"Guatemala","GTM","320","1985"
+"Liberia","LBR","430","1986"
+"Tuvalu","TUV","798","1986"
+"Filipinas","PHL","608","1987"
+"Haití","HTI","332","1987"
+"Nicaragua","NIC","558","1987"
+"Suriname","SUR","740","1987"
+"Brasil","BRA","076","1988"
+"Benin","BEN","204","1990"
+"Namibia","NAM","516","1990"
+"Bulgaria","BGR","100","1991"
+"Burkina Faso","BFA","854","1991"
+"Colombia","COL","170","1991"
+"Croacia","HRV","191","1991"
+"Eslovenia","SVN","705","1991"
+"Gabón","GAB","266","1991"
+"Guinea Ecuatorial","GNQ","226","1991"
+"Mauritania","MRT","478","1991"
+"República Democrática Popular Lao","LAO","418","1991"
+"Rumania","ROU","642","1991"
+"Sierra Leona","SLE","694","1991"
+"Yemen","YEM","887","1991"
+"Zambia","ZMB","894","1991"
+"la ex República Yugoslava de Macedonia","MKD","807","1991"
+"Arabia Saudita","SAU","682","1992"
+"Djibouti","DJI","262","1992"
+"Eslovaquia","SVK","703","1992"
+"Estonia","EST","233","1992"
+"Ghana","GHA","288","1992"
+"Lituania","LTU","440","1992"
+"Mongolia","MNG","496","1992"
+"Paraguay","PRY","600","1992"
+"Togo","TGO","768","1992"
+"Uzbekistán","UZB","860","1992"
+"Viet Nam","VNM","704","1992"
+"Andorra","AND","020","1993"
+"Camboya","KHM","116","1993"
+"Federación de Rusia","RUS","643","1993"
+"Lesotho","LSO","426","1993"
+"Perú","PER","604","1993"
+"República Checa","CZE","203","1993"
+"Seychelles","SYC","690","1993"
+"Belarús","BLR","112","1994"
+"Etiopía","ETH","231","1994"
+"Malawi","MWI","454","1994"
+"República de Moldova","MDA","498","1994"
+"Tayikistán","TJK","762","1994"
+"Armenia","ARM","051","1995"
+"Azerbaiyán","AZE","031","1995"
+"Bosnia y Herzegovina","BIH","070","1995"
+"Georgia","GEO","268","1995"
+"Kazajstán","KAZ","398","1995"
+"Uganda","UGA","800","1995"
+"Gambia","GMB","270","1996"
+"Omán","OMN","512","1996"
+"Sudáfrica","ZAF","710","1996"
+"Ucrania","UKR","804","1996"
+"Eritrea","ERI","232","1997"
+"Polonia","POL","616","1997"
+"Albania","ALB","008","1998"
+"Finlandia","FIN","246","1999"
+"Nigeria","NGA","566","1999"
+"Venezuela (República Bolivariana de)","VEN","862","1999"
+"Senegal","SEN","686","2001"
+"Bahrein","BHR","048","2002"
+"Timor-Leste","TLS","626","2002"
+"Qatar","QAT","634","2003"
+"Rwanda","RWA","646","2003"
+"Afganistán","AFG","004","2004"
+"Mozambique","MOZ","508","2004"
+"Iraq","IRQ","368","2005"
+"República Democrática del Congo","COD","180","2005"
+"Swazilandia","SWZ","748","2005"
+"Serbia","SRB","688","2006"
+"Montenegro","MNE","499","2007"
+"Bhután","BTN","064","2008"
+"Ecuador","ECU","218","2008"
+"Maldivas","MDV","462","2008"
+"Myanmar","MMR","104","2008"
+"Turkmenistán","TKM","795","2008"
+"Bolivia (Estado Plurinacional de)","BOL","068","2009"
+"Angola","AGO","024","2010"
+"Kenya","KEN","404","2010"
+"Madagascar","MDG","450","2010"
+"Níger","NER","562","2010"
+"Hungría","HUN","348","2011"
+"Libia","LBY","434","2011"
+"Marruecos","MAR","504","2011"
+"Sudán del Sur","SSD","728","2011"
+"República Árabe Siria","SYR","760","2012"
+"Somalia","SOM","706","2012"
+"Fiji","FJI","242","2013"
+"Zimbabwe","ZWE","716","2013"
+"Egipto","EGY","818","2014"
+"Túnez","TUN","788","2014"
+"Congo","COG","178","2015"
+"Nepal","NPL","524","2015"
+"República Dominicana","DOM","214","2015"
+"Côte d'Ivoire","CIV","384","2016"
+"República Centroafricana","CAF","140","2016"
+"Tailandia","THA","764","2017"
+"Burundi","BDI","108","2018"
+"Chad","TCD","148","2018"
+"Comoras","COM","174","2018"
+"Cuba","CUB","192","2019"
+"Sudán","SDN","729","2019"
+"Argelia","DZA","012","2020"
+"Guinea","GIN","324","2020"
+"Malí","MLI","466","2020"
+"Kirguistán","KGZ","417","2021"
+"Malta","MLT","470","2021"

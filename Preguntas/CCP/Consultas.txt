@@ -216,3 +216,38 @@ WHERE {
 }
 Group by ?nombreTopico
 ORDER BY DESC (?eventos)
+
+
+## Cantidad de temas en const vigentes del mundo
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX ccp: <http://www.constituteproject.org/ontology/>
+PREFIX ccpc: <http://www.constituteproject.org/constitution/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+Select ?nombreTopico (COUNT(?Evento) as ?constituciones)
+WHERE {
+  ?Evento rdf:type ?topico .
+  ?topico rdfs:subClassOf* ccp:Topics ;
+          rdfs:label ?nombreTopico .
+  
+  FILTER(LANG(?nombreTopico) = "es")
+  {
+    SELECT (MAX(?evento) as ?Evento) ?nombrePais (MAX(?año) as ?Año)
+  		WHERE {
+    		?evento rdf:type rdf:event ;
+                    rdf:event_year ?año;
+                    rdf:event_type ?tipo;
+                    ccpc:isConstitutionOf ?pais.
+
+    		?pais ccp:nameListES ?nombrePais.
+
+    		FILTER(?tipo IN ('New', 'Amendment','Interim'))
+    	}
+        GROUP BY ?nombrePais
+        ORDER BY (?nombrePais)
+  }
+}
+Group By (?nombreTopico)
+ORDER BY DESC (?constituciones)
