@@ -52,10 +52,12 @@ PREFIX ccp: <http://www.constituteproject.org/ontology/>
 PREFIX ccpc: <http://www.constituteproject.org/constitution/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?nombrePais (MAX(?año) as ?Año)
+SELECT (MIN(?nombrePais) as ?Pais) (MIN(?iso3) as ?ISO3) (MIN(?UN) as ?codeUN) (MAX(?año) as ?Año)
 WHERE {
   ?const ccpc:isConstitutionOf ?pais .
   ?pais ccp:nameListES ?nombrePais;
+        ccp:codeISO3 ?iso3;
+        ccp:codeUN ?UN;
         ccp:isInGroup ccp:World .
   
   ?const rdf:event_year ?año ;
@@ -63,8 +65,8 @@ WHERE {
   
   FILTER (?tipo IN ('New', 'Interim')) .
 }
-Group by ?nombrePais
-ORDER BY ?nombrePais
+Group by ?pais
+ORDER BY ?Año
 
 
 ## año de la ultmm constitucion o enmienda de cada pais
@@ -75,10 +77,12 @@ PREFIX ccp: <http://www.constituteproject.org/ontology/>
 PREFIX ccpc: <http://www.constituteproject.org/constitution/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?nombrePais (MAX(?año) as ?Año)
+SELECT (MIN(?nombrePais) as ?Pais) (MIN(?iso3) as ?ISO3) (MIN(?UN) as ?codeUN) (MAX(?año) as ?Año)
 WHERE {
   ?const ccpc:isConstitutionOf ?pais .
   ?pais ccp:nameListES ?nombrePais;
+        ccp:codeISO3 ?iso3;
+        ccp:codeUN ?UN;
         ccp:isInGroup ccp:World .
   
   ?const rdf:event_year ?año ;
@@ -86,8 +90,8 @@ WHERE {
   
   FILTER (?tipo IN ('New', 'Interim', 'Amendment')) .
 }
-Group by ?nombrePais
-ORDER BY ?nombrePais
+Group by ?pais
+ORDER BY ?Año
 
 ## Cantidad de apariciones de temas en eventos
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
