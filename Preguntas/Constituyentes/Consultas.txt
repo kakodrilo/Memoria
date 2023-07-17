@@ -79,7 +79,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-SELECT ?nombrePartido ?nombreTopico (COUNT(?discurso) as ?Discursos)
+SELECT (MIN(?nombrePartido) as ?Partido) (MIN(?nombreTopico) as ?Topico) (COUNT(?discurso) as ?Discursos)
 WHERE {
   ?s rdf:type cc:Constituyente;
      rdf:type ?person .
@@ -92,7 +92,7 @@ WHERE {
   ?topico cc:nombreTopico ?nombreTopico
   
 }
-GROUP BY ?nombrePartido ?nombreTopico
+GROUP BY ?partido ?topico
 ORDER BY ?nombrePartido ?nombreTopico
 
 

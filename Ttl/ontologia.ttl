@@ -4,6 +4,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix untitled-ontology-53: <http://www.semanticweb.org/joaquín/ontologies/2023/5/untitled-ontology-53#> .
 @base <http://www.semanticweb.org/joaquín/ontologies/2023/5/untitled-ontology-53> .
 
 <http://www.semanticweb.org/joaquín/ontologies/2023/5/untitled-ontology-53> rdf:type owl:Ontology .
@@ -836,11 +837,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/Secession_and_Accession
 <http://www.constituteproject.org/ontology/Secession_and_Accession> rdf:type owl:Class ;
-                                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/federalism> ,
-                                                                                    [ rdf:type owl:Restriction ;
-                                                                                      owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                                      owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Territorio>
-                                                                                    ] ;
+                                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/federalism> ;
                                                                     <http://www.constituteproject.org/ontology/keyword> """
    Secesión y anexión
   """@es ,
@@ -980,11 +977,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/abide
 <http://www.constituteproject.org/ontology/abide> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://www.constituteproject.org/ontology/General_Duties> ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                    owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Deber>
-                                                                  ] ;
+                                                  rdfs:subClassOf <http://www.constituteproject.org/ontology/General_Duties> ;
                                                   rdfs:comment """
    Requiere que los ciudadanos o funcionarios públicos obedezcan la Constitución. Esto se aplica sobre todo a las personas en los casos en que la Constitución incluye una declaración de los deberes de los ciudadanos o de los titulares de cargos públicos.
   """@es ,
@@ -1059,11 +1052,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/achighed
 <http://www.constituteproject.org/ontology/achighed> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                       owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Educacion>
-                                                                     ] ;
+                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ;
                                                      rdfs:comment """
    Garantiza a los individuos el acceso igualitario a la educación superior. En algunos casos se puede ver limitado por la existencia de concursos o pruebas de selección.
   """@es ,
@@ -1177,11 +1166,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/amendment
 <http://www.constituteproject.org/ontology/amendment> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://www.constituteproject.org/ontology/Topics> ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                        owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Reforma>
-                                                                      ] ;
+                                                      rdfs:subClassOf <http://www.constituteproject.org/ontology/Topics> ;
                                                       rdfs:label "Amendment"@en ,
                                                                  "Enmienda"@es .
 
@@ -1220,11 +1205,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/anthem
 <http://www.constituteproject.org/ontology/anthem> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/State_Definition_and_Symbols> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Simbolos>
-                                                                   ] ;
+                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/State_Definition_and_Symbols> ;
                                                    rdfs:comment """
    Names the official anthem of the state.
   """@en ,
@@ -1464,11 +1445,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/balbudgt
 <http://www.constituteproject.org/ontology/balbudgt> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Special_Legislation> ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                       owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Presupuesto>
-                                                                     ] ;
+                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Special_Legislation> ;
                                                      <http://www.constituteproject.org/ontology/keyword> """
    fiscal policy
   """@en ,
@@ -1525,11 +1502,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/budget
 <http://www.constituteproject.org/ontology/budget> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/Special_Legislation> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Presupuesto>
-                                                                   ] ;
+                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/Special_Legislation> ;
                                                    <http://www.constituteproject.org/ontology/keyword> """
    fiscal policy
   """@en ,
@@ -1812,11 +1785,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/childpro
 <http://www.constituteproject.org/ontology/childpro> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Civil_and_Political_Rights> ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                       owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#MenorDeEdad>
-                                                                     ] ;
+                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Civil_and_Political_Rights> ;
                                                      <http://www.constituteproject.org/ontology/keyword> """
    familia
   """@es ,
@@ -1852,11 +1821,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/childwrk
 <http://www.constituteproject.org/ontology/childwrk> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                       owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#MenorDeEdad>
-                                                                     ] ;
+                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ;
                                                      <http://www.constituteproject.org/ontology/keyword> """
    juveniles
   """@en ,
@@ -1892,11 +1857,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/citdep
 <http://www.constituteproject.org/ontology/citdep> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/Citizenship> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Deportacion>
-                                                                   ] ;
+                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/Citizenship> ;
                                                    rdfs:comment """
    En circunstancias extraordinarias, por lo general relacionadas a condenas penales en el extranjero, algunas constituciones dan al gobierno el poder de deportar a sus ciudadanos. En otras constituciones, el gobierno prohíbe específicamente la deportación de ciudadanos, pero permite la deportación de otros residentes.
   """@es ,
@@ -2788,11 +2749,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/edcomp
 <http://www.constituteproject.org/ontology/edcomp> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Educacion>
-                                                                   ] ;
+                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ;
                                                    <http://www.constituteproject.org/ontology/keyword> """
    children
   """@en ,
@@ -2828,11 +2785,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/edfree
 <http://www.constituteproject.org/ontology/edfree> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Educacion>
-                                                                   ] ;
+                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ;
                                                    <http://www.constituteproject.org/ontology/keyword> """
    children
   """@en ,
@@ -2952,11 +2905,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/env
 <http://www.constituteproject.org/ontology/env> rdf:type owl:Class ;
-                                                rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ,
-                                                                [ rdf:type owl:Restriction ;
-                                                                  owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                  owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#MedioAmbiente>
-                                                                ] ;
+                                                rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ;
                                                 rdfs:comment """
    Impone la obligación del Estado y/o de las personas de proteger o preservar el medio ambiente. También puede otorgar a los ciudadanos el derecho a disfrutar de un medio ambiente sano.
   """@es ,
@@ -3912,11 +3861,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/exprop
 <http://www.constituteproject.org/ontology/exprop> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/Economic_Rights> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Expropiacion>
-                                                                   ] ;
+                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/Economic_Rights> ;
                                                    <http://www.constituteproject.org/ontology/keyword> """
    property
   """@en ,
@@ -4108,11 +4053,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/finsup1
 <http://www.constituteproject.org/ontology/finsup1> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                      owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#AdultoMayor>
-                                                                    ] ;
+                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ;
                                                     <http://www.constituteproject.org/ontology/keyword> """
    seguridad social
   """@es ,
@@ -4154,11 +4095,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/finsup3
 <http://www.constituteproject.org/ontology/finsup3> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                      owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Discapacidad>
-                                                                    ] ;
+                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ;
                                                     <http://www.constituteproject.org/ontology/keyword> """
    seguridad social
   """@es ,
@@ -4179,11 +4116,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/finsup4
 <http://www.constituteproject.org/ontology/finsup4> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                      owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#MenorDeEdad>
-                                                                    ] ;
+                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ;
                                                     <http://www.constituteproject.org/ontology/keyword> """
    juveniles
   """@en ,
@@ -4219,11 +4152,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/flag
 <http://www.constituteproject.org/ontology/flag> rdf:type owl:Class ;
-                                                 rdfs:subClassOf <http://www.constituteproject.org/ontology/State_Definition_and_Symbols> ,
-                                                                 [ rdf:type owl:Restriction ;
-                                                                   owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                   owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Simbolos>
-                                                                 ] ;
+                                                 rdfs:subClassOf <http://www.constituteproject.org/ontology/State_Definition_and_Symbols> ;
                                                  rdfs:comment """
    Describe las principales características de la bandera nacional.
   """@es ,
@@ -4238,11 +4167,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/fndfam
 <http://www.constituteproject.org/ontology/fndfam> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/Civil_and_Political_Rights> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Familia>
-                                                                   ] ;
+                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/Civil_and_Political_Rights> ;
                                                    <http://www.constituteproject.org/ontology/keyword> """
    familia
   """@es ,
@@ -4263,11 +4188,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/freecomp
 <http://www.constituteproject.org/ontology/freecomp> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Economic_Rights> ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                       owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Mercado>
-                                                                     ] ;
+                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Economic_Rights> ;
                                                      rdfs:comment """
    Protects individuals and businesses from monopolies, price fixing, and other means of reducing competition in the marketplace.
   """@en ,
@@ -5802,11 +5723,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/intprop
 <http://www.constituteproject.org/ontology/intprop> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/Economic_Rights> ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                      owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Propiedad>
-                                                                    ] ;
+                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/Economic_Rights> ;
                                                     <http://www.constituteproject.org/ontology/keyword> """
    copyright
   """@en ,
@@ -5890,11 +5807,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/jointrde
 <http://www.constituteproject.org/ontology/jointrde> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                       owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Trabajo>
-                                                                     ] ;
+                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ;
                                                      <http://www.constituteproject.org/ontology/keyword> """
    labor
   """@en ,
@@ -6749,19 +6662,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 ###  http://www.constituteproject.org/ontology/medcom
 <http://www.constituteproject.org/ontology/medcom> rdf:type owl:Class ;
                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/Independent_Agencies_and_Commissions> ,
-                                                                   <http://www.constituteproject.org/ontology/Media_and_Communications> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Censura>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Comunicacion>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Reputacion>
-                                                                   ] ;
+                                                                   <http://www.constituteproject.org/ontology/Media_and_Communications> ;
                                                    rdfs:comment """
    Establece una comisión para regular los medios de comunicación. Esto puede incluir la garantía de la libertad de expresión, y en algunos casos la aplicación de algún tipo de censura.
   """@es ,
@@ -6924,11 +6825,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/natcit
 <http://www.constituteproject.org/ontology/natcit> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/Citizenship> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Nacionalidad>
-                                                                   ] ;
+                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/Citizenship> ;
                                                    <http://www.constituteproject.org/ontology/keyword> """
    nacionales
   """@es ,
@@ -6994,11 +6891,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/occupate
 <http://www.constituteproject.org/ontology/occupate> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Economic_Rights> ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                       owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Ocupacion>
-                                                                     ] ;
+                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Economic_Rights> ;
                                                      <http://www.constituteproject.org/ontology/keyword> """
    labor
   """@en ,
@@ -7325,11 +7218,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/partreg
 <http://www.constituteproject.org/ontology/partreg> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/Political_Parties> ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                      owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Partido>
-                                                                    ] ;
+                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/Political_Parties> ;
                                                     rdfs:comment """
    Establece los límites de actividad aceptable, o la estructura de organización, de los partidos políticos. Por ejemplo, los partidos pueden estar obligados a respetar algunos principios fundamentales del Estado.
   """@es ,
@@ -7344,11 +7233,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/partrght
 <http://www.constituteproject.org/ontology/partrght> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Political_Parties> ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                       owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#DerechoAPartido>
-                                                                     ] ;
+                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Political_Parties> ;
                                                      rdfs:comment """
    Establece el derecho a afiliarse a un partido u otra organización política, o da a los ciudadanos el derecho a fundar nuevos partidos políticos.
   """@es ,
@@ -7631,11 +7516,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/proprght
 <http://www.constituteproject.org/ontology/proprght> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Economic_Rights> ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                       owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Propiedad>
-                                                                     ] ;
+                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Economic_Rights> ;
                                                      rdfs:comment """
    Allows individuals and corporations the sole ownership of real property, effects, financial instruments, or other objects. This right is in some cases open to violation in the interests of the community.
   """@en ,
@@ -7650,11 +7531,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/provwork
 <http://www.constituteproject.org/ontology/provwork> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                       owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Trabajo>
-                                                                     ] ;
+                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ;
                                                      <http://www.constituteproject.org/ontology/keyword> """
    labor
   """@en ,
@@ -8046,11 +7923,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/resenex
 <http://www.constituteproject.org/ontology/resenex> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/Citizenship> ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                      owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Frontera>
-                                                                    ] ;
+                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/Citizenship> ;
                                                     <http://www.constituteproject.org/ontology/keyword> """
    Restricciones de entrada y salida
   """@es ,
@@ -8128,11 +8001,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/safework
 <http://www.constituteproject.org/ontology/safework> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                       owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Trabajo>
-                                                                     ] ;
+                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ;
                                                      <http://www.constituteproject.org/ontology/keyword> """
    labor
   """@en ,
@@ -8541,11 +8410,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/strike
 <http://www.constituteproject.org/ontology/strike> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Trabajo>
-                                                                   ] ;
+                                                   rdfs:subClassOf <http://www.constituteproject.org/ontology/Social_Rights> ;
                                                    <http://www.constituteproject.org/ontology/keyword> """
    labor
   """@en ,
@@ -8708,19 +8573,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/telecom
 <http://www.constituteproject.org/ontology/telecom> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/Media_and_Communications> ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                      owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Censura>
-                                                                    ] ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                      owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Comunicacion>
-                                                                    ] ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                      owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Reputacion>
-                                                                    ] ;
+                                                    rdfs:subClassOf <http://www.constituteproject.org/ontology/Media_and_Communications> ;
                                                     <http://www.constituteproject.org/ontology/keyword> """
    communications
   """@en ,
@@ -8795,11 +8648,7 @@ con una ciudad capital, que constituye la sede de su autoridad
 
 ###  http://www.constituteproject.org/ontology/transfer
 <http://www.constituteproject.org/ontology/transfer> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Economic_Rights> ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                       owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Propiedad>
-                                                                     ] ;
+                                                     rdfs:subClassOf <http://www.constituteproject.org/ontology/Economic_Rights> ;
                                                      <http://www.constituteproject.org/ontology/keyword> """
    herencia
   """@es ,
@@ -9314,38 +9163,6 @@ con una ciudad capital, que constituye la sede de su autoridad
                                                             "Obligación de trabajar"@es .
 
 
-###  http://www.imfd.cl/ontologia/convencion#AdultoMayor
-<http://www.imfd.cl/ontologia/convencion#AdultoMayor> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#DerechosSociales> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Agua
-<http://www.imfd.cl/ontologia/convencion#Agua> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#DerechosSociales> ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                 owl:allValuesFrom <http://www.constituteproject.org/ontology/water>
-                                                               ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#AntiCorrupcion
-<http://www.imfd.cl/ontologia/convencion#AntiCorrupcion> rdf:type owl:Class ;
-                                                         rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Comisiones> ,
-                                                                         [ rdf:type owl:Restriction ;
-                                                                           owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                           owl:allValuesFrom <http://www.constituteproject.org/ontology/cc>
-                                                                         ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Banco
-<http://www.imfd.cl/ontologia/convencion#Banco> rdf:type owl:Class ;
-                                                rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Economia> ,
-                                                                [ rdf:type owl:Restriction ;
-                                                                  owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                  owl:allValuesFrom <http://www.constituteproject.org/ontology/bank>
-                                                                ] .
-
-
 ###  http://www.imfd.cl/ontologia/convencion#Candidato
 <http://www.imfd.cl/ontologia/convencion#Candidato> rdf:type owl:Class ;
                                                     rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> .
@@ -9355,50 +9172,8 @@ con una ciudad capital, que constituye la sede de su autoridad
 <http://www.imfd.cl/ontologia/convencion#Cargo> rdf:type owl:Class .
 
 
-###  http://www.imfd.cl/ontologia/convencion#Censo
-<http://www.imfd.cl/ontologia/convencion#Censo> rdf:type owl:Class ;
-                                                rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#SistemaElectoral> ,
-                                                                [ rdf:type owl:Restriction ;
-                                                                  owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                  owl:allValuesFrom <http://www.constituteproject.org/ontology/census>
-                                                                ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Censura
-<http://www.imfd.cl/ontologia/convencion#Censura> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#MediosDeComunicacion> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Ciencia
-<http://www.imfd.cl/ontologia/convencion#Ciencia> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Cultura> ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                    owl:allValuesFrom <http://www.constituteproject.org/ontology/science>
-                                                                  ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#ColorDePiel
-<http://www.imfd.cl/ontologia/convencion#ColorDePiel> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Igualdad> ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                        owl:allValuesFrom <http://www.constituteproject.org/ontology/equalgr10>
-                                                                      ] .
-
-
 ###  http://www.imfd.cl/ontologia/convencion#Comision
 <http://www.imfd.cl/ontologia/convencion#Comision> rdf:type owl:Class .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Comisiones
-<http://www.imfd.cl/ontologia/convencion#Comisiones> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Topico> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Comunicacion
-<http://www.imfd.cl/ontologia/convencion#Comunicacion> rdf:type owl:Class ;
-                                                       rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#MediosDeComunicacion> .
 
 
 ###  http://www.imfd.cl/ontologia/convencion#Constituyente
@@ -9413,405 +9188,28 @@ con una ciudad capital, que constituye la sede de su autoridad
                                                                              <http://www.imfd.cl/ontologia/convencion/area> .
 
 
-###  http://www.imfd.cl/ontologia/convencion#Cultura
-<http://www.imfd.cl/ontologia/convencion#Cultura> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Topico> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Deber
-<http://www.imfd.cl/ontologia/convencion#Deber> rdf:type owl:Class ;
-                                                rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#ReformasYConstitucion> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Deportacion
-<http://www.imfd.cl/ontologia/convencion#Deportacion> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Origen> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#DerechoAPartido
-<http://www.imfd.cl/ontologia/convencion#DerechoAPartido> rdf:type owl:Class ;
-                                                          rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#PartidosPoliticos> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#DerechoInternacional
-<http://www.imfd.cl/ontologia/convencion#DerechoInternacional> rdf:type owl:Class ;
-                                                               rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Topico> ,
-                                                                               [ rdf:type owl:Restriction ;
-                                                                                 owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                                 owl:allValuesFrom <http://www.constituteproject.org/ontology/intlaw>
-                                                                               ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#DerechosCiviles
-<http://www.imfd.cl/ontologia/convencion#DerechosCiviles> rdf:type owl:Class ;
-                                                          rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#DerechosFuntamentales> ,
-                                                                          [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                            owl:allValuesFrom <http://www.constituteproject.org/ontology/Civil_and_Political_Rights>
-                                                                          ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#DerechosFuntamentales
-<http://www.imfd.cl/ontologia/convencion#DerechosFuntamentales> rdf:type owl:Class ;
-                                                                rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Topico> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#DerechosHumanos
-<http://www.imfd.cl/ontologia/convencion#DerechosHumanos> rdf:type owl:Class ;
-                                                          rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Comisiones> ,
-                                                                          [ rdf:type owl:Restriction ;
-                                                                            owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                            owl:allValuesFrom <http://www.constituteproject.org/ontology/hr>
-                                                                          ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#DerechosSociales
-<http://www.imfd.cl/ontologia/convencion#DerechosSociales> rdf:type owl:Class ;
-                                                           rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Topico> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Discapacidad
-<http://www.imfd.cl/ontologia/convencion#Discapacidad> rdf:type owl:Class ;
-                                                       rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#DerechosSociales> ,
-                                                                       <http://www.imfd.cl/ontologia/convencion#Igualdad> ,
-                                                                       [ rdf:type owl:Restriction ;
-                                                                         owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                         owl:allValuesFrom <http://www.constituteproject.org/ontology/equalgr9>
-                                                                       ] .
-
-
 ###  http://www.imfd.cl/ontologia/convencion#Discurso
 <http://www.imfd.cl/ontologia/convencion#Discurso> rdf:type owl:Class .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Distrito
-<http://www.imfd.cl/ontologia/convencion#Distrito> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#SistemaElectoral> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.constituteproject.org/ontology/district>
-                                                                   ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Economia
-<http://www.imfd.cl/ontologia/convencion#Economia> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Topico> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Edad
-<http://www.imfd.cl/ontologia/convencion#Edad> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Igualdad> ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                 owl:allValuesFrom <http://www.constituteproject.org/ontology/equalgr8>
-                                                               ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Educacion
-<http://www.imfd.cl/ontologia/convencion#Educacion> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#DerechosSociales> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Ejecutivo
-<http://www.imfd.cl/ontologia/convencion#Ejecutivo> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Estado> ,
-                                                                    [ rdf:type owl:Restriction ;
-                                                                      owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                      owl:allValuesFrom <http://www.constituteproject.org/ontology/executive>
-                                                                    ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Eleccion
-<http://www.imfd.cl/ontologia/convencion#Eleccion> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#SistemaElectoral> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.constituteproject.org/ontology/elections>
-                                                                   ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Estado
-<http://www.imfd.cl/ontologia/convencion#Estado> rdf:type owl:Class ;
-                                                 rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Topico> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#EstatusSocial
-<http://www.imfd.cl/ontologia/convencion#EstatusSocial> rdf:type owl:Class ;
-                                                        rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Igualdad> ,
-                                                                        [ rdf:type owl:Restriction ;
-                                                                          owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                          owl:allValuesFrom <http://www.constituteproject.org/ontology/equalgr12>
-                                                                        ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Expropiacion
-<http://www.imfd.cl/ontologia/convencion#Expropiacion> rdf:type owl:Class ;
-                                                       rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Economia> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#FFAA
-<http://www.imfd.cl/ontologia/convencion#FFAA> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Topico> ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                 owl:allValuesFrom <http://www.constituteproject.org/ontology/Military>
-                                                               ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Familia
-<http://www.imfd.cl/ontologia/convencion#Familia> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#DerechosFuntamentales> ,
-                                                                  <http://www.imfd.cl/ontologia/convencion#Igualdad> ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                    owl:allValuesFrom <http://www.constituteproject.org/ontology/equalgr16>
-                                                                  ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Finanza
-<http://www.imfd.cl/ontologia/convencion#Finanza> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Igualdad> ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                    owl:allValuesFrom <http://www.constituteproject.org/ontology/equalgr13>
-                                                                  ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Frontera
-<http://www.imfd.cl/ontologia/convencion#Frontera> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Origen> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Historia
-<http://www.imfd.cl/ontologia/convencion#Historia> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Cultura> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.constituteproject.org/ontology/prevcond>
-                                                                   ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Igualdad
-<http://www.imfd.cl/ontologia/convencion#Igualdad> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Topico> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Judicial
-<http://www.imfd.cl/ontologia/convencion#Judicial> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Estado> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Judicial>
-                                                                   ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Legislativo
-<http://www.imfd.cl/ontologia/convencion#Legislativo> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Estado> ,
-                                                                      [ rdf:type owl:Restriction ;
-                                                                        owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                        owl:allValuesFrom <http://www.imfd.cl/ontologia/convencion#Legislativo>
-                                                                      ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#LibertadDeAsociacion
-<http://www.imfd.cl/ontologia/convencion#LibertadDeAsociacion> rdf:type owl:Class ;
-                                                               rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#DerechosFuntamentales> ,
-                                                                               [ rdf:type owl:Restriction ;
-                                                                                 owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                                 owl:allValuesFrom <http://www.constituteproject.org/ontology/assoc>
-                                                                               ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Marital
-<http://www.imfd.cl/ontologia/convencion#Marital> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Igualdad> ,
-                                                                  [ rdf:type owl:Restriction ;
-                                                                    owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                    owl:allValuesFrom <http://www.constituteproject.org/ontology/matequal>
-                                                                  ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#MedioAmbiente
-<http://www.imfd.cl/ontologia/convencion#MedioAmbiente> rdf:type owl:Class ;
-                                                        rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#DerechosSociales> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#MediosDeComunicacion
-<http://www.imfd.cl/ontologia/convencion#MediosDeComunicacion> rdf:type owl:Class ;
-                                                               rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Topico> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#MenorDeEdad
-<http://www.imfd.cl/ontologia/convencion#MenorDeEdad> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#DerechosSociales> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Mercado
-<http://www.imfd.cl/ontologia/convencion#Mercado> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Economia> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Nacionalidad
-<http://www.imfd.cl/ontologia/convencion#Nacionalidad> rdf:type owl:Class ;
-                                                       rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Origen> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Ocupacion
-<http://www.imfd.cl/ontologia/convencion#Ocupacion> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Economia> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#OrientacionSexual
-<http://www.imfd.cl/ontologia/convencion#OrientacionSexual> rdf:type owl:Class ;
-                                                            rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Igualdad> ,
-                                                                            [ rdf:type owl:Restriction ;
-                                                                              owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                              owl:allValuesFrom <http://www.constituteproject.org/ontology/equalgr7>
-                                                                            ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Origen
-<http://www.imfd.cl/ontologia/convencion#Origen> rdf:type owl:Class ;
-                                                 rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Topico> .
 
 
 ###  http://www.imfd.cl/ontologia/convencion#Pacto
 <http://www.imfd.cl/ontologia/convencion#Pacto> rdf:type owl:Class .
 
 
-###  http://www.imfd.cl/ontologia/convencion#Partido
-<http://www.imfd.cl/ontologia/convencion#Partido> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#PartidosPoliticos> .
-
-
 ###  http://www.imfd.cl/ontologia/convencion#PartidoPolitico
 <http://www.imfd.cl/ontologia/convencion#PartidoPolitico> rdf:type owl:Class .
-
-
-###  http://www.imfd.cl/ontologia/convencion#PartidosPoliticos
-<http://www.imfd.cl/ontologia/convencion#PartidosPoliticos> rdf:type owl:Class ;
-                                                            rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Topico> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Presupuesto
-<http://www.imfd.cl/ontologia/convencion#Presupuesto> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Economia> .
 
 
 ###  http://www.imfd.cl/ontologia/convencion#Profesion
 <http://www.imfd.cl/ontologia/convencion#Profesion> rdf:type owl:Class .
 
 
-###  http://www.imfd.cl/ontologia/convencion#Propiedad
-<http://www.imfd.cl/ontologia/convencion#Propiedad> rdf:type owl:Class ;
-                                                    rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Economia> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#PuebloOriginario
-<http://www.imfd.cl/ontologia/convencion#PuebloOriginario> rdf:type owl:Class ;
-                                                           rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Origen> ,
-                                                                           [ rdf:type owl:Restriction ;
-                                                                             owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                             owl:allValuesFrom <http://www.constituteproject.org/ontology/Indigenous_Groups>
-                                                                           ] .
-
-
 ###  http://www.imfd.cl/ontologia/convencion#RedSocial
 <http://www.imfd.cl/ontologia/convencion#RedSocial> rdf:type owl:Class .
 
 
-###  http://www.imfd.cl/ontologia/convencion#Reforma
-<http://www.imfd.cl/ontologia/convencion#Reforma> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#ReformasYConstitucion> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#ReformasYConstitucion
-<http://www.imfd.cl/ontologia/convencion#ReformasYConstitucion> rdf:type owl:Class ;
-                                                                rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Topico> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#RegulacionAPartido
-<http://www.imfd.cl/ontologia/convencion#RegulacionAPartido> rdf:type owl:Class ;
-                                                             rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#PartidosPoliticos> ,
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                               owl:allValuesFrom <http://www.constituteproject.org/ontology/partunco>
-                                                                             ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Religion
-<http://www.imfd.cl/ontologia/convencion#Religion> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Origen> ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                     owl:allValuesFrom <http://www.constituteproject.org/ontology/Religion>
-                                                                   ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Reputacion
-<http://www.imfd.cl/ontologia/convencion#Reputacion> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#MediosDeComunicacion> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Salud
-<http://www.imfd.cl/ontologia/convencion#Salud> rdf:type owl:Class ;
-                                                rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#DerechosSociales> ,
-                                                                [ rdf:type owl:Restriction ;
-                                                                  owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                  owl:allValuesFrom <http://www.constituteproject.org/ontology/health>
-                                                                ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Simbolos
-<http://www.imfd.cl/ontologia/convencion#Simbolos> rdf:type owl:Class ;
-                                                   rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Cultura> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#SistemaElectoral
-<http://www.imfd.cl/ontologia/convencion#SistemaElectoral> rdf:type owl:Class ;
-                                                           rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Topico> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Telecomunicacion
-<http://www.imfd.cl/ontologia/convencion#Telecomunicacion> rdf:type owl:Class ;
-                                                           rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Comisiones> ,
-                                                                           [ rdf:type owl:Restriction ;
-                                                                             owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                             owl:allValuesFrom <http://www.constituteproject.org/ontology/medcom>
-                                                                           ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Territorio
-<http://www.imfd.cl/ontologia/convencion#Territorio> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Estado> .
-
-
 ###  http://www.imfd.cl/ontologia/convencion#Topico
 <http://www.imfd.cl/ontologia/convencion#Topico> rdf:type owl:Class .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Trabajo
-<http://www.imfd.cl/ontologia/convencion#Trabajo> rdf:type owl:Class ;
-                                                  rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#DerechosSociales> .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Verdad
-<http://www.imfd.cl/ontologia/convencion#Verdad> rdf:type owl:Class ;
-                                                 rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#Comisiones> ,
-                                                                 [ rdf:type owl:Restriction ;
-                                                                   owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                   owl:allValuesFrom <http://www.constituteproject.org/ontology/truthcom>
-                                                                 ] .
-
-
-###  http://www.imfd.cl/ontologia/convencion#Voto
-<http://www.imfd.cl/ontologia/convencion#Voto> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://www.imfd.cl/ontologia/convencion#SistemaElectoral> ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://www.imfd.cl/ontologia/convencion/subsumedBy> ;
-                                                                 owl:allValuesFrom <http://www.constituteproject.org/ontology/Suffrage_and_Turnout>
-                                                               ] .
 
 
 ###  http://www.imfd.cl/ontologia/convencion/Constitution

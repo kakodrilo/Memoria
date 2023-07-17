@@ -255,3 +255,34 @@ WHERE {
 }
 Group By (?nombreTopico)
 ORDER BY DESC (?constituciones)
+
+# Constituciones vigentes que incluyen 2 temas
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX cc: <http://www.imfd.cl/ontologia/convencion#>
+PREFIX ccp: <http://www.constituteproject.org/constitution/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX cpo: <http://www.constituteproject.org/ontology/>
+
+SELECT DISTINCT ?Constitucion ?codeISO3 ?Pais ?Año 
+WHERE {
+  ?Constitucion rdf:type cpo:citren, cpo:citrev .
+  
+  ?country cpo:isInGroup cpo:World ;
+           cpo:codeISO3 ?codeISO3 ;
+           cpo:nameShortES ?Pais.
+  
+  {
+  SELECT (MAX(?const) as ?Constitucion) ?country (MAX(?año) as ?Año)
+  WHERE {
+    ?const rdf:type rdf:event ;
+           rdf:event_year ?año ;
+           ccp:isConstitutionOf ?country;
+           rdf:event_type ?tipo.
+
+    FILTER(?tipo IN ('New','Amendment'))
+  }
+  GROUP BY ?country 
+  ORDER BY ?const
+  }
+}
