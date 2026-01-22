@@ -20,12 +20,40 @@ A continuación, se detalla el orden del proyecto y los aspectos relevantes de c
 ### Ontología
 La ontología propuesta y construida con la herramienta [Protégé](https://protege.stanford.edu/ ) se enceuntra en el archivo ontologia.owl de la ruta raíz del proyecto.  La representación gráfica de la ontología se presenta a continuación:
 
-![Alt text](https://lh3.googleusercontent.com/fife/AKsag4MH-S-VxJDeuJT5Ab3tItHiSEuAEo8AwEBXFY4V3om0tCH95kR9ZifowNlNCvWKO-Xo2DWsfC4szOsQQRCXCnvaz-wfvmLUDtev8DpsmNj8TMdIZtRsVy1FPHBl5wsrasdz8QrhWVUhzzhvqj_12nYY3e9yEwlR5_kAGT3MjJYP-Q8TvSap8iNsh9_K3oE5KV2o4n57OHXU_yBLT0nDwXWRvg0ATFt0ES86fGp_YOqedtfeVMFDcN1WQKA_wo-5JHnOMuYDPquyVGh-Og8G3r2bX9dRjQPIDAJgX5Dtn8I1xj5tjiahPAHNwaWXTRVEah_bRMUQ3CfDz79c20AN-QQ2JNenA2u8lsNsL1Pn5x1z8G4p0Ap4c-faBmriCW7Pa_xSGUtvXfuJs7B4-nw1oU3YDNwctpSg49FX5H0TBHFSkHsFx4epLaJWT_rnC_nTVvaI3xYy0C3BnU9l38H2HruBPQvQ4fmSGc3f66AFiNu8XHrBocNtv21tRAZ2pU9Wv5585nfRc5zNzLmCj-HPptSORcR5tyg-tXkfJERkWWrT9sMtSckRIjtXGTtBRoH2UJ4gsRrw9h3G1vY-hZR63ly-VW0quC2qoz-apCM78KcaAWkqqMsqABNEaRTR0lIUwGnSdcIukvZw7aDad5IiBCrBLIcaf6u-GFDnsfHHdmKZSXO4GoLv_RwwP1F9Rwrb6yMUngmvG2KKLi-oDtYWSX6MK7CA18C_IVM50_2D0cyvNoeSgu6OZnZxMdxy3tj3UTNgceQBN_NFxgLHF-8lBHfVWEiXX7G6WNy-IX8_QMoUJrcOymmkbY3ekyoTAE5ql_OjFB6EgJdWJZIPPzGC_7KTESZGuan5CyiJaZNE_kuemqWJdBao6TeARBMvYXK1XhwT2N53lexGaP_kbZDA4Gexl1pIJnJV4MauV4StyfJHc6jLXI3turcdwujBvv22rqA1CqIqN4-gj0nXp7OAlhygxm--hiAV__qkdLofR_5q4cP7GPxx8QqMoabF8Bv6zmiY40kLHi8fiQ6Kv7u3gn8CXU8lF3ZkutmEP33OSoJ0k--bXC6Gbhz5kUq6WoYoT_CsUMnfelGhou0YrsgFsA1Au68gb9xvmYVvP-On0K6hzpqaEZV7yS2QXDdZ_OCA6O4u5E3tM_QIy_pGAWahAKrDIls4CIDXSSnRkFTBgOb-P0k7F_PcWiggyN42DmP4USXEed4oTG-GhacNUWwzkU1b_P_zwnWx--aQeEtqHRDw1t8sVU2KMg87zHvQLoQulOQ4llei337-P2xMPKfjlEywftD2ILvcKRug0cxNYQ2bXOrXpXw9S2HoKoJFrWrVHmmoGMRRDIemCKHy4qnVbg04VN-lcgTeO-CpbqIfDIpwooKi6qEV9BgRYylqsGwmyphc9AQ4wQenS8hYE4te91tPu6Gr0RkY37Yk5VIR4KCoGufdQdYjG6--brR42Wgs01c0Akar2SVh2XywC2Z9hOUP_PuEFixk2QZJ0mV9Gz7wQETBXk6whpEVgyLKexplvwW3p_Spz5g8RH1LrejGE7Tu4aRYb4srp9_AlJWOak3YmjRKwXNf2uNfNs-yFi89ZxXfqYaLBXacqeD7Cg=w1920-h929)
+
+![Grafo de la ontología completa](https://github.com/kakodrilo/Memoria/blob/main/Visualizaciones/grafoCompleto.png)
 
 ### Procesamiento de datos
 En el Jupyter Notebook **_Procesamiento de datos.ipynb_** se encuentra el proceso de extracción de datos del conjunto de CCP. Para esto, tal como se define en el documento, fueron utilizados los documento _countries.xml_, _chronology.xml_ y _ccpcnc\_v4.csv_. Como resultado de esto, se generan los archivos _Ttl/countries.ttl_, _Ttl/eventos.ttl_ y _Ttl/datosDuros.ttl_.
 
 Para aplicar la integración entre las dos fuentes, se utilizó el proceso indicado en el Jupyter Notebook **_Integracion.ipynb_**. El cuál hace uso del archivo _Ttl/datosDuros.ttl_ para generar las relaciones respectivas entre los distintos eventos de CCP y los distintos tópicos de BCN. El mapeo de tópicos se documentó en el archivo Excel _Homologación Tópicos.xlsx_.
 
+#### Ingeniería y Normalización de Datos
+El mayor desafío técnico consititó en la limpieza y transformación de datos heterogeneos provenientes de las disintitas fuentes.
+-	**Normalización**: Se implementaron procesos en Python para estandarizar nombres de países, formatos de fechas y codificación de caracteres, asegurando la compatibilidad con el esquema de carga de Prrotégé.
+-	**Integración Semántica**: Se diseñó una ontología en formato OWL que permite el mapeo de tópicos de la Blibioteca del Congreso Nacional (BCN) con estándares internacionales.
+
 ### Validación
 Una de las validaciones del trabajo realizado, fue la consulta sobre la ontología de conocimiento no trivial y la posterior visualización de los datos obtenidos. Para la creación de las visualizaciones, se utilizaron los distintos archivos csv del directorio _Preguntas_. El proceso para la creación de las visualizaciones presentes en el documento está en el Jupyter Notebook **_Visualizaciones.ipynb_**
+
+#### Análisis y Visualización
+Las visualizaciones fueron diseñadas para ser accesibles al público general, transformando procesos de consulta complejos sobre la ontología en información de fácil lectura.
+
+Algunos ejemplos de visualizaciones resultantes son:
+
+**Mapas de calor**
+
+Año de publicación de la constitución actual de cada país
+![Año de publicación de la constitución actual de cada país](https://github.com/kakodrilo/Memoria/blob/main/Visualizaciones/A%C3%B1o%20de%20la%20ultima%20constitucion%20de%20cada%20pa%C3%ADs.jpg)
+
+Densidad de reformas constitucionales en Sudamerica entre el año 2000 y 2023
+![Cantidad de reformas en sudamerica entre 2020 y 2023](https://github.com/kakodrilo/Memoria/blob/main/Visualizaciones/Cantidad%20enmiendas%20sudamerica%20en%202000.jpg)
+
+
+**Cruce de datos**
+
+Análisis de los temas con mayor presencia en constituciones a nivel mundial que también fueron discutidos en la Convención Constitucional
+![Top 20 temas presentes en las constituciones mundiales que también se discutieron en la Convención Constitucional](https://github.com/kakodrilo/Memoria/blob/main/Visualizaciones/top%2020%20temas%20relacionados%20%20a%20const%20vigentes.jpg)
+
+Cantidad de temas discutidos en la Conveción Constitucional que estén presentes en las constituciones actuales de América y Europa.
+![Distribución de cantidad de temas disctutidos en la convención presentes en constituciones actuales de América y Europa](https://github.com/kakodrilo/Memoria/blob/main/Visualizaciones/cantidad%20de%20temas%20de%20la%20CC%20en%20const%20actuales.jpg)
